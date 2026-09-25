@@ -1,0 +1,734 @@
+/* ==========================================================================
+   Mattemagi - night-sky magic theme matching the wizard logo.
+   ========================================================================== */
+
+:root {
+  --night-1: #0f1440;
+  --night-2: #1b1f5e;
+  --night-3: #35186b;
+  --card: #fffaf0;
+  --card-text: #2a1f4d;
+  --muted: #6d6391;
+  --border: #e9dcc4;
+  --violet: #7b3fe4;
+  --violet-dark: #5a26b8;
+  --gold: #ffc93c;
+  --gold-deep: #f0a500;
+  --pink: #ff5fae;
+  --sky: #4fc3ff;
+  --green: #26c281;
+  --green-bg: #e3f8ee;
+  --red: #e5484d;
+  --red-bg: #ffe8e8;
+  --hint-bg: #fff3cf;
+  --radius: 22px;
+  --font-display: 'Fredoka Variable', 'Trebuchet MS', system-ui, sans-serif;
+  --font-body: 'Nunito Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  color-scheme: dark;
+  font-family: var(--font-body);
+  line-height: 1.45;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  color: #fff;
+  background:
+    radial-gradient(900px 500px at 20% -10%, rgba(123, 63, 228, 0.55), transparent 70%),
+    radial-gradient(700px 500px at 110% 20%, rgba(79, 195, 255, 0.28), transparent 70%),
+    linear-gradient(180deg, var(--night-1), var(--night-2) 45%, var(--night-3));
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 650;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+/* Twinkling star field behind everything. */
+.sky {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(2px 2px at 10% 20%, #fff, transparent),
+    radial-gradient(1.5px 1.5px at 30% 70%, #fff, transparent),
+    radial-gradient(2px 2px at 55% 15%, #ffe9a8, transparent),
+    radial-gradient(1.5px 1.5px at 75% 45%, #fff, transparent),
+    radial-gradient(2px 2px at 90% 80%, #ffe9a8, transparent),
+    radial-gradient(1.5px 1.5px at 20% 90%, #fff, transparent),
+    radial-gradient(1.5px 1.5px at 65% 85%, #fff, transparent),
+    radial-gradient(2px 2px at 85% 10%, #fff, transparent);
+  background-size: 420px 420px;
+  opacity: 0.8;
+  animation: twinkle 5s ease-in-out infinite alternate;
+}
+
+@keyframes twinkle {
+  to {
+    opacity: 0.35;
+  }
+}
+
+.app {
+  position: relative;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 18px 16px 48px;
+}
+
+/* ---------- Header ---------- */
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.header__logo {
+  width: 64px;
+  height: 64px;
+  border-radius: 22%;
+  box-shadow:
+    0 0 0 3px rgba(255, 255, 255, 0.18),
+    0 8px 24px rgba(0, 0, 0, 0.45),
+    0 0 28px rgba(255, 201, 60, 0.35);
+}
+
+.header h1 {
+  font-size: clamp(1.8rem, 1.3rem + 2vw, 2.5rem);
+  line-height: 1;
+  background: linear-gradient(90deg, #fff 0%, var(--gold) 55%, var(--pink) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  filter: drop-shadow(0 2px 8px rgba(255, 201, 60, 0.35));
+}
+
+.header__tagline {
+  margin-top: 4px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+}
+
+.header__back {
+  margin-left: auto;
+}
+
+/* ---------- Buttons ---------- */
+
+.button {
+  font: inherit;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 56px;
+  padding: 12px 24px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  transition:
+    transform 120ms ease,
+    box-shadow 120ms ease;
+}
+
+.button:active {
+  transform: scale(0.97);
+}
+
+.button:focus-visible,
+input:focus-visible,
+.child-card:focus-visible {
+  outline: 4px solid var(--gold);
+  outline-offset: 3px;
+}
+
+.button--primary {
+  color: #fff;
+  background: linear-gradient(180deg, #9a63ff, var(--violet) 50%, var(--violet-dark));
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.35) inset,
+    0 8px 20px rgba(90, 38, 184, 0.45);
+}
+
+.button--primary:hover {
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.35) inset,
+    0 10px 26px rgba(90, 38, 184, 0.6),
+    0 0 18px rgba(255, 201, 60, 0.35);
+}
+
+.button--ghost {
+  min-height: 44px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.25);
+}
+
+/* ---------- Panels ---------- */
+
+.panel,
+.puzzle-card,
+.summary,
+.week {
+  color: var(--card-text);
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: 0 16px 40px rgba(5, 8, 40, 0.5);
+}
+
+.panel {
+  padding: 28px 22px;
+}
+
+.panel--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.panel__icon {
+  font-size: 3rem;
+}
+
+/* ---------- Child picker ---------- */
+
+.picker__title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 8px 0 18px;
+}
+
+.picker__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.child-card {
+  font: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 24px 16px 20px;
+  border: none;
+  border-radius: 28px;
+  color: #fff;
+  cursor: pointer;
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.3) inset,
+    0 14px 34px rgba(5, 8, 40, 0.5);
+  transition: transform 150ms ease;
+}
+
+.child-card:hover {
+  transform: translateY(-4px) rotate(-0.5deg);
+}
+
+.child-card--0 {
+  background: linear-gradient(160deg, #5b8cff, #6a3fe0 70%);
+}
+
+.child-card--1 {
+  background: linear-gradient(160deg, #ff7ac0, #9b3fe0 70%);
+}
+
+.child-card--2 {
+  background: linear-gradient(160deg, #2fd3a3, #2c7be5 70%);
+}
+
+.child-card--3 {
+  background: linear-gradient(160deg, #ffb347, #e0503f 70%);
+}
+
+.child-card__avatar {
+  font-size: 4.2rem;
+  line-height: 1;
+  filter: drop-shadow(0 6px 10px rgba(0, 0, 0, 0.35));
+  animation: bob 3s ease-in-out infinite;
+}
+
+@keyframes bob {
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.child-card__name {
+  font-family: var(--font-display);
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.child-card__grade {
+  font-weight: 700;
+  padding: 2px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.child-card__status {
+  font-weight: 700;
+  opacity: 0.95;
+}
+
+/* ---------- Stars ---------- */
+
+.stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.star {
+  fill: rgba(42, 31, 77, 0.18);
+}
+
+.child-card .star {
+  fill: rgba(255, 255, 255, 0.3);
+}
+
+.star--on,
+.child-card .star--on {
+  fill: var(--gold);
+  filter: drop-shadow(0 1px 3px rgba(240, 165, 0, 0.6));
+}
+
+.stars--sm .star {
+  width: 22px;
+  height: 22px;
+}
+
+.stars--md .star {
+  width: 30px;
+  height: 30px;
+}
+
+.stars--lg .star {
+  width: 48px;
+  height: 48px;
+}
+
+/* ---------- Child day ---------- */
+
+.child-day {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.child-day__who {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.child-day__avatar {
+  font-size: 2.2rem;
+}
+
+.child-day__name {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 650;
+}
+
+.progress-dots {
+  display: flex;
+  gap: 8px;
+  margin: 0 0 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.progress-dots__dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.progress-dots__dot--solved {
+  background: var(--gold);
+  box-shadow: 0 0 10px rgba(255, 201, 60, 0.7);
+}
+
+.progress-dots__dot--failed {
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.progress-dots__dot--current {
+  outline: 3px solid #fff;
+  outline-offset: 2px;
+}
+
+/* ---------- Puzzle card ---------- */
+
+.puzzle-card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 22px;
+  animation: pop-in 350ms cubic-bezier(0.2, 1.4, 0.4, 1);
+}
+
+@keyframes pop-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px) scale(0.97);
+  }
+}
+
+.puzzle-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.puzzle-card__count {
+  font-family: var(--font-display);
+  font-weight: 650;
+  color: var(--violet);
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: #efe6ff;
+}
+
+.puzzle-card__question {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 1.1rem + 1.4vw, 1.9rem);
+  font-weight: 550;
+  line-height: 1.3;
+}
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.answer__field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.answer input {
+  flex: 1;
+  min-width: 0;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 10px 18px;
+  border-radius: 18px;
+  border: 3px solid var(--border);
+  background: #fff;
+  color: var(--card-text);
+  text-align: center;
+}
+
+.answer input:focus {
+  border-color: var(--violet);
+}
+
+.answer__unit {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.answer__tries {
+  text-align: center;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.feedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  animation: pop-in 300ms cubic-bezier(0.2, 1.4, 0.4, 1);
+}
+
+.feedback--correct {
+  background: var(--green-bg);
+  color: #13784f;
+}
+
+.feedback--wrong {
+  background: var(--red-bg);
+  color: var(--red);
+  animation: shake 360ms ease-out;
+}
+
+.feedback--failed {
+  background: #efe6ff;
+  color: var(--violet-dark);
+}
+
+.feedback--hint {
+  background: var(--hint-bg);
+  color: #8a5a00;
+}
+
+@keyframes shake {
+  20% {
+    transform: translateX(-8px);
+  }
+  40% {
+    transform: translateX(8px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+}
+
+.explanation {
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: var(--hint-bg);
+}
+
+.explanation h3 {
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+}
+
+.puzzle-card__next {
+  align-self: center;
+  min-width: 220px;
+}
+
+/* ---------- Summary ---------- */
+
+.summary {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 28px 22px;
+  text-align: center;
+  background:
+    radial-gradient(120% 60% at 50% 0%, rgba(255, 201, 60, 0.3), transparent 70%),
+    var(--card);
+  animation: pop-in 450ms cubic-bezier(0.2, 1.4, 0.4, 1);
+}
+
+.summary__kicker {
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--violet);
+}
+
+.summary h2 {
+  font-size: 1.9rem;
+}
+
+.summary__total {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  font-family: var(--font-display);
+}
+
+.summary__big {
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--gold-deep);
+  text-shadow: 0 4px 14px rgba(240, 165, 0, 0.4);
+}
+
+.summary__of {
+  font-size: 1.6rem;
+  color: var(--muted);
+}
+
+.summary__list {
+  width: min(340px, 100%);
+  margin: 6px 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.summary__list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: 12px;
+  background: #f5ecdb;
+  font-weight: 700;
+}
+
+.summary__message {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--violet-dark);
+}
+
+.summary__come-back {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.confetti {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.confetti span {
+  position: absolute;
+  top: -16px;
+  animation-name: confetti-fall;
+  animation-timing-function: cubic-bezier(0.25, 0.4, 0.55, 1);
+  animation-fill-mode: both;
+}
+
+@keyframes confetti-fall {
+  from {
+    transform: translate3d(0, 0, 0) rotate(0);
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  to {
+    transform: translate3d(var(--drift), 640px, 0) rotate(var(--spin));
+    opacity: 0;
+  }
+}
+
+/* ---------- Week strip ---------- */
+
+.week {
+  padding: 16px 18px;
+}
+
+.week__title {
+  font-size: 1.05rem;
+  margin-bottom: 10px;
+}
+
+.week__days {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.week__day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 2px;
+  border-radius: 12px;
+  background: #f5ecdb;
+}
+
+.week__day--today {
+  background: #efe6ff;
+  box-shadow: inset 0 0 0 2px var(--violet);
+}
+
+.week__name {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--muted);
+}
+
+.week__stars {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--gold-deep);
+}
+
+.week__max {
+  font-size: 0.7rem;
+  color: var(--muted);
+}
+
+@media (max-width: 480px) {
+  .header__logo {
+    width: 52px;
+    height: 52px;
+  }
+
+  .header__tagline {
+    font-size: 0.9rem;
+  }
+
+  .button--primary {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .confetti {
+    display: none;
+  }
+}

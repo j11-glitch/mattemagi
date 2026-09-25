@@ -1,0 +1,41 @@
+{
+  "week": "2026-W39",
+  "days": {
+    "2026-09-25": {
+      "simo": [
+        { "question": "Hva er 7 · 8?", "answer": 56, "explanation": "7 · 8 = 56. Tips: 5, 6, 7, 8 – altså 56 = 7 · 8." },
+        { "question": "Simo har 45 kroner. Han kjøper en is til 28 kroner. Hvor mange kroner har han igjen?", "answer": 17, "unit": "kr", "explanation": "45 − 28 = 17 kroner." },
+        { "question": "Et tall ganget med 6 blir 42. Hvilket tall er det?", "answer": 7, "explanation": "6 · 7 = 42, så tallet er 7." }
+      ],
+      "aurora": [
+        { "question": "Hva er 3/4 av 60?", "answer": 45, "explanation": "60 : 4 = 15, og 15 · 3 = 45." },
+        { "question": "Regn ut: 12,5 + 7,75", "answer": "20,25", "explanation": "12,50 + 7,75 = 20,25." },
+        { "question": "Et rektangel er 8 cm langt og 5 cm bredt. Hva er arealet?", "answer": 40, "unit": "cm²", "explanation": "Areal = lengde · bredde = 8 · 5 = 40 cm²." }
+      ]
+    },
+    "2026-09-26": {
+      "simo": [
+        { "question": "Hva er 368 + 257?", "answer": 625, "explanation": "300 + 200 = 500, 60 + 50 = 110 og 8 + 7 = 15. Til sammen 625." },
+        { "question": "Klokka er 14.35. Hvor mange minutter er det til klokka blir 15.00?", "answer": 25, "unit": "min", "explanation": "Fra 35 til 60 minutter er det 25 minutter." },
+        { "question": "En pakke har 4 rader med 6 kjeks i hver rad. Hvor mange kjeks er det til sammen?", "answer": 24, "explanation": "4 · 6 = 24 kjeks." }
+      ],
+      "aurora": [
+        { "question": "Hva er 25 % av 240?", "answer": 60, "explanation": "25 % er det samme som en fjerdedel: 240 : 4 = 60." },
+        { "question": "Regn ut: 6 · 7 − 18 : 3", "answer": 36, "explanation": "Gange og dele først: 6 · 7 = 42 og 18 : 3 = 6. Så 42 − 6 = 36." },
+        { "question": "En sykkel koster 2400 kr. Prisen blir satt ned med 15 %. Hva er den nye prisen?", "answer": 2040, "unit": "kr", "explanation": "15 % av 2400 er 360. 2400 − 360 = 2040 kr." }
+      ]
+    },
+    "2026-09-27": {
+      "simo": [
+        { "question": "Hva er 1000 − 365?", "answer": 635, "explanation": "1000 − 300 = 700, 700 − 65 = 635." },
+        { "question": "Hva er halvparten av 86?", "answer": 43, "explanation": "80 : 2 = 40 og 6 : 2 = 3. Til sammen 43." },
+        { "question": "Ola er 3 år eldre enn Per. Til sammen er de 21 år. Hvor gammel er Per?", "answer": 9, "unit": "år", "explanation": "Tar vi bort de 3 årene, er det 18 år igjen å dele likt: 18 : 2 = 9. Per er 9 og Ola er 12." }
+      ],
+      "aurora": [
+        { "question": "0,6 skal skrives som en brøk med nevner 5. Hva blir telleren?", "answer": 3, "explanation": "0,6 = 6/10 = 3/5. Telleren er 3." },
+        { "question": "Hva er gjennomsnittet av 4, 7, 9 og 12?", "answer": 8, "explanation": "4 + 7 + 9 + 12 = 32, og 32 : 4 = 8." },
+        { "question": "En flaske rommer 3,5 liter. Hvor mange desiliter er det?", "answer": 35, "unit": "dL", "explanation": "1 liter = 10 desiliter, så 3,5 · 10 = 35 dL." }
+      ]
+    }
+  }
+}

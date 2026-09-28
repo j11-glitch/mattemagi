@@ -28,6 +28,11 @@ describe('answers', () => {
     expect(isCorrectAnswer({ question: 'q', answer: 'Tolv', input: 'text' }, ' tolv ')).toBe(true)
   })
 
+  it('accepts a typographic minus sign', () => {
+    expect(isCorrectAnswer({ question: 'q', answer: -12 }, '\u221212')).toBe(true)
+    expect(isCorrectAnswer({ question: 'q', answer: -12 }, '-12')).toBe(true)
+  })
+
   it('never accepts an empty answer', () => {
     expect(isCorrectAnswer({ question: 'q', answer: 0 }, '')).toBe(false)
     expect(isCorrectAnswer({ question: 'q', answer: 0 }, '0')).toBe(true)
@@ -72,6 +77,13 @@ describe('published data', () => {
   it('has children with unique ids', () => {
     expect(children.length).toBeGreaterThan(0)
     expect(new Set(children.map((c) => c.id)).size).toBe(children.length)
+  })
+
+  it('has an image file for every image avatar', () => {
+    const images = import.meta.glob('../../public/avatars/*', { eager: true, query: '?url', import: 'default' })
+    for (const child of children.filter((c) => /\.(png|jpe?g|webp|gif|svg)$/i.test(c.avatar))) {
+      expect(Object.keys(images), child.id).toContain(`../../public/${child.avatar}`)
+    }
   })
 
   it('has at least one week of puzzles', () => {

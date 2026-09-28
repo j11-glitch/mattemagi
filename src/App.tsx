@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
+import { Avatar } from './components/Avatar'
 import { ChildPicker } from './components/ChildPicker'
 import { DaySummary } from './components/DaySummary'
 import { PuzzleCard } from './components/PuzzleCard'
@@ -152,9 +153,7 @@ function ChildDay({ child, puzzles, results, weekDays, today, starsOn, onResult,
   return (
     <div className="child-day">
       <div className="child-day__who">
-        <span className="child-day__avatar" aria-hidden="true">
-          {child.avatar}
-        </span>
+        <Avatar child={child} className="child-day__avatar" />
         <span className="child-day__name">{child.name}</span>
         <ol className="progress-dots" aria-hidden="true">
           {dayResults.map((r, i) => (

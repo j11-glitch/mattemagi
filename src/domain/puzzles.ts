@@ -22,6 +22,7 @@ export interface Child {
   readonly id: string
   readonly name: string
   readonly grade: number
+  /** Image path under public/ (e.g. "avatars/simo.png") or an emoji. */
   readonly avatar: string
 }
 
@@ -33,7 +34,8 @@ export function puzzlesFor(week: WeekFile | null, date: string, childId: string)
 
 /** Normalizes a typed answer: trims, lowercases, drops spaces, the unit and uses "." for decimals. */
 export function normalizeAnswer(value: string | number, unit?: string): string {
-  let text = String(value).trim().toLowerCase().replace(/\s+/g, '')
+  // Typographic minus (U+2212) counts as a normal minus sign.
+  let text = String(value).trim().toLowerCase().replace(/\s+/g, '').replace(/\u2212/g, '-')
   const normalizedUnit = unit?.toLowerCase().replace(/\s+/g, '')
   if (normalizedUnit && text.endsWith(normalizedUnit) && text.length > normalizedUnit.length) {
     text = text.slice(0, -normalizedUnit.length)

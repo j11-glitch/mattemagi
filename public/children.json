@@ -1,4 +1,4 @@
 [
-  { "id": "simo", "name": "Simo", "grade": 4, "avatar": "🧙‍♂️" },
-  { "id": "aurora", "name": "Aurora", "grade": 6, "avatar": "🧙‍♀️" }
+  { "id": "simo", "name": "Simo", "grade": 4, "avatar": "avatars/simo.png" },
+  { "id": "aurora", "name": "Aurora", "grade": 6, "avatar": "avatars/aurora.png" }
 ]

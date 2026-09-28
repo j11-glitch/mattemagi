@@ -1,0 +1,289 @@
+{
+  "week": "2026-W41",
+  "days": {
+    "2026-10-05": {
+      "simo": [
+        {
+          "question": "Hva er 7 · 6?",
+          "answer": 42,
+          "explanation": "7 · 6 = 42."
+        },
+        {
+          "question": "Hva er 250 + 380 + 120?",
+          "answer": 750,
+          "explanation": "250 + 120 = 370, og 370 + 380 = 750."
+        },
+        {
+          "question": "En kinobillett koster 95 kroner. Hva koster 2 billetter?",
+          "answer": 190,
+          "unit": "kr",
+          "explanation": "95 + 95 = 190 kroner. Tips: 2 · 100 = 200, minus 2 · 5 = 10, gir 190."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 3/4 − 1/8",
+          "answer": "5/8",
+          "accept": [
+            "0,625"
+          ],
+          "input": "text",
+          "explanation": "3/4 = 6/8. 6/8 − 1/8 = 5/8."
+        },
+        {
+          "question": "Hva er 12,5 % av 80?",
+          "answer": 10,
+          "explanation": "12,5 % er en åttendedel: 80 : 8 = 10."
+        },
+        {
+          "question": "Et rektangel har areal 48 cm² og lengde 8 cm. Hvor bredt er det?",
+          "answer": 6,
+          "unit": "cm",
+          "explanation": "Bredde = areal : lengde = 48 : 8 = 6 cm."
+        }
+      ]
+    },
+    "2026-10-06": {
+      "simo": [
+        {
+          "question": "Hva er 48 : 6?",
+          "answer": 8,
+          "explanation": "6 · 8 = 48, så 48 : 6 = 8."
+        },
+        {
+          "question": "Klokka er 08.20. Skolen starter om 40 minutter. Når starter skolen?",
+          "answer": "09.00",
+          "accept": [
+            "9.00",
+            "09:00",
+            "9:00",
+            "9"
+          ],
+          "explanation": "Fra 08.20 til 09.00 er det 40 minutter, fordi 20 + 40 = 60 minutter er en hel time. Skolen starter 09.00."
+        },
+        {
+          "question": "Hvor mange minutter er 2 timer?",
+          "answer": 120,
+          "unit": "min",
+          "explanation": "1 time = 60 minutter, så 2 timer = 120 minutter."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: (15 − 3) · 4",
+          "answer": 48,
+          "explanation": "Parentesen først: 15 − 3 = 12. Så 12 · 4 = 48."
+        },
+        {
+          "question": "Løs likningen: x − 8 = 19",
+          "answer": 27,
+          "explanation": "x = 19 + 8 = 27."
+        },
+        {
+          "question": "Forholdet mellom jenter og gutter i en klasse er 3 : 2. Det er 12 jenter. Hvor mange gutter er det?",
+          "answer": 8,
+          "explanation": "12 jenter er 3 deler, så én del er 12 : 3 = 4. Guttene er 2 deler: 2 · 4 = 8."
+        }
+      ]
+    },
+    "2026-10-07": {
+      "simo": [
+        {
+          "question": "Hva er 8 · 8?",
+          "answer": 64,
+          "explanation": "8 · 8 = 64."
+        },
+        {
+          "question": "Hva er halvparten av 150?",
+          "answer": 75,
+          "explanation": "100 : 2 = 50 og 50 : 2 = 25. 50 + 25 = 75."
+        },
+        {
+          "question": "En buss har 48 seter. 29 seter er opptatt. Hvor mange seter er ledige?",
+          "answer": 19,
+          "explanation": "48 − 29 = 19. Tips: 48 − 30 = 18, og så legger vi til 1."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 4,5 · 6",
+          "answer": 27,
+          "explanation": "4 · 6 = 24 og 0,5 · 6 = 3. 24 + 3 = 27."
+        },
+        {
+          "question": "Hvor mange desiliter er 1,2 liter?",
+          "answer": 12,
+          "unit": "dL",
+          "explanation": "1 liter = 10 dL, så 1,2 liter = 12 dL."
+        },
+        {
+          "question": "Aurora har 250 kr. Hun bruker 40 % på nye noter. Hvor mye bruker hun?",
+          "answer": 100,
+          "unit": "kr",
+          "explanation": "10 % av 250 er 25, så 40 % er 4 · 25 = 100 kr."
+        }
+      ]
+    },
+    "2026-10-08": {
+      "simo": [
+        {
+          "question": "Hva er 81 : 9?",
+          "answer": 9,
+          "explanation": "9 · 9 = 81, så 81 : 9 = 9."
+        },
+        {
+          "question": "Hva er 5 · 30?",
+          "answer": 150,
+          "explanation": "5 · 3 = 15, så 5 · 30 = 150."
+        },
+        {
+          "question": "Et kvadrat har sider på 7 cm. Hvor lang er omkretsen?",
+          "answer": 28,
+          "unit": "cm",
+          "explanation": "Et kvadrat har 4 like sider: 4 · 7 = 28 cm."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Hvilket tall er minst: 0,5, 0,45 eller 0,505?",
+          "answer": "0,45",
+          "explanation": "Se på tidelene: 0,5 og 0,505 har 5 tideler, mens 0,45 har bare 4. Derfor er 0,45 minst."
+        },
+        {
+          "question": "Regn ut: −7 − 5",
+          "answer": -12,
+          "explanation": "Start på −7 og gå 5 steg ned på tallinja: −12."
+        },
+        {
+          "question": "En sirkel har diameter 10 cm. Hva er radien?",
+          "answer": 5,
+          "unit": "cm",
+          "explanation": "Radien er halvparten av diameteren: 10 : 2 = 5 cm."
+        }
+      ]
+    },
+    "2026-10-09": {
+      "simo": [
+        {
+          "question": "Hva er 6 · 8?",
+          "answer": 48,
+          "explanation": "6 · 8 = 48."
+        },
+        {
+          "question": "Hva er 1000 − 250 − 250?",
+          "answer": 500,
+          "explanation": "250 + 250 = 500, og 1000 − 500 = 500."
+        },
+        {
+          "question": "Simo sparer 20 kroner hver uke. Hvor mange uker må han spare for å få 180 kroner?",
+          "answer": 9,
+          "unit": "uker",
+          "explanation": "180 : 20 = 9 uker."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Hva er 5/6 av 42?",
+          "answer": 35,
+          "explanation": "42 : 6 = 7, og 7 · 5 = 35."
+        },
+        {
+          "question": "Løs likningen: 3x + 5 = 26",
+          "answer": 7,
+          "explanation": "3x = 26 − 5 = 21, og x = 21 : 3 = 7."
+        },
+        {
+          "question": "En sykkeltur på 36 km tar 2 timer. Hva er gjennomsnittsfarten?",
+          "answer": 18,
+          "unit": "km/t",
+          "explanation": "Fart = strekning : tid = 36 : 2 = 18 km i timen."
+        }
+      ]
+    },
+    "2026-10-10": {
+      "simo": [
+        {
+          "question": "Hva er 7 · 9?",
+          "answer": 63,
+          "explanation": "7 · 9 = 63. Tips: 7 · 10 = 70, og 70 − 7 = 63."
+        },
+        {
+          "question": "Hvor mange meter er 500 cm?",
+          "answer": 5,
+          "unit": "m",
+          "explanation": "100 cm = 1 meter, så 500 cm = 5 meter."
+        },
+        {
+          "question": "Hvilket tall mangler? 3, 6, 12, 24, __",
+          "answer": 48,
+          "explanation": "Tallet dobles hver gang: 24 · 2 = 48."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 9 · 8 − 36 : 4",
+          "answer": 63,
+          "explanation": "Gange og dele først: 9 · 8 = 72 og 36 : 4 = 9. Så 72 − 9 = 63."
+        },
+        {
+          "question": "Skriv 0,35 som prosent.",
+          "answer": 35,
+          "unit": "%",
+          "explanation": "0,35 = 35/100 = 35 %."
+        },
+        {
+          "question": "Et basseng er 10 m langt, 5 m bredt og 2 m dypt. Hvor mange kubikkmeter vann rommer det?",
+          "answer": 100,
+          "unit": "m³",
+          "explanation": "Volum = 10 · 5 · 2 = 100 m³."
+        }
+      ]
+    },
+    "2026-10-11": {
+      "simo": [
+        {
+          "question": "Hva er 54 : 6?",
+          "answer": 9,
+          "explanation": "6 · 9 = 54, så 54 : 6 = 9."
+        },
+        {
+          "question": "Hva er 347 + 486?",
+          "answer": 833,
+          "explanation": "300 + 400 = 700 og 47 + 86 = 133. 700 + 133 = 833."
+        },
+        {
+          "question": "En pizza er delt i 8 like biter. Simo spiser 3 biter. Hvor stor brøkdel av pizzaen er igjen?",
+          "answer": "5/8",
+          "accept": [
+            "0,625"
+          ],
+          "input": "text",
+          "explanation": "8 − 3 = 5 biter er igjen av 8, altså 5/8 av pizzaen."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 1/3 + 1/6",
+          "answer": "1/2",
+          "accept": [
+            "3/6",
+            "0,5"
+          ],
+          "input": "text",
+          "explanation": "1/3 = 2/6. 2/6 + 1/6 = 3/6, og 3/6 = 1/2."
+        },
+        {
+          "question": "Hva er 150 % av 40?",
+          "answer": 60,
+          "explanation": "100 % er 40 og 50 % er 20. 40 + 20 = 60."
+        },
+        {
+          "question": "Aurora spiller et stykke som varer 3 minutter og 45 sekunder. Hvor mange sekunder er det?",
+          "answer": 225,
+          "unit": "sek",
+          "explanation": "3 · 60 = 180 sekunder, og 180 + 45 = 225 sekunder."
+        }
+      ]
+    }
+  }
+}

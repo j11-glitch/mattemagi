@@ -91,14 +91,17 @@ To preview a coming day, open the site with `?date=2026-09-28`.
 
 ## Children
 
-`public/children.json` lists the children. The `id` is what the puzzle files use.
+`public/children.json` lists the children. The `id` is what the puzzle files use; `avatar` is
+an image under `public/` or an emoji.
 
 ```json
 [
-  { "id": "simo", "name": "Simo", "grade": 4, "avatar": "🧙‍♂️" },
-  { "id": "aurora", "name": "Aurora", "grade": 6, "avatar": "🧙‍♀️" }
+  { "id": "simo", "name": "Simo", "grade": 4, "avatar": "avatars/simo.png" },
+  { "id": "aurora", "name": "Aurora", "grade": 6, "avatar": "avatars/aurora.png" }
 ]
 ```
+
+The avatars are cut from `assets/avatars-source.webp` by `python3 scripts/generate-avatars.py`.
 
 A GitHub Pages site is public, including these names.
 

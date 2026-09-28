@@ -2,6 +2,7 @@ import type { Child } from '../domain/puzzles'
 import { PUZZLES_PER_DAY } from '../domain/puzzles'
 import { MAX_STARS, totalStars, type PuzzleResult } from '../domain/scoring'
 import { nb } from '../i18n/nb'
+import { Avatar } from './Avatar'
 import { Stars } from './Stars'
 
 interface ChildPickerProps {
@@ -31,9 +32,7 @@ export function ChildPicker({ kids, puzzleCount, resultsFor, onPick }: ChildPick
                   : nb.statusReady
           return (
             <button key={child.id} type="button" className={`child-card child-card--${i % 4}`} onClick={() => onPick(child.id)}>
-              <span className="child-card__avatar" aria-hidden="true">
-                {child.avatar}
-              </span>
+              <Avatar child={child} className="child-card__avatar" />
               <span className="child-card__name">{child.name}</span>
               <span className="child-card__grade">{nb.grade(child.grade)}</span>
               {count > 0 && (

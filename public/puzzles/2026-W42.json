@@ -1,0 +1,277 @@
+{
+  "week": "2026-W42",
+  "days": {
+    "2026-10-12": {
+      "simo": [
+        {
+          "question": "Hva er 9 · 6?",
+          "answer": 54,
+          "explanation": "9 · 6 = 54. Tips: 10 · 6 = 60, og 60 − 6 = 54."
+        },
+        {
+          "question": "Hva er 523 + 278?",
+          "answer": 801,
+          "explanation": "500 + 200 = 700 og 23 + 78 = 101. 700 + 101 = 801."
+        },
+        {
+          "question": "Simo kjøper en is til 27 kroner og betaler med en femtilapp. Hvor mye får han igjen?",
+          "answer": 23,
+          "unit": "kr",
+          "explanation": "50 − 27 = 23 kroner. Tips: fra 27 til 30 er 3, og fra 30 til 50 er 20."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 2/3 + 1/4",
+          "answer": "11/12",
+          "input": "text",
+          "explanation": "Fellesnevner 12: 2/3 = 8/12 og 1/4 = 3/12. 8/12 + 3/12 = 11/12."
+        },
+        {
+          "question": "Hva er 35 % av 60?",
+          "answer": 21,
+          "explanation": "10 % av 60 er 6, så 30 % er 18. 5 % er 3. 18 + 3 = 21."
+        },
+        {
+          "question": "Løs likningen: 5x − 4 = 31",
+          "answer": 7,
+          "explanation": "5x = 31 + 4 = 35, og x = 35 : 5 = 7."
+        }
+      ]
+    },
+    "2026-10-13": {
+      "simo": [
+        {
+          "question": "Hva er 42 : 7?",
+          "answer": 6,
+          "explanation": "7 · 6 = 42, så 42 : 7 = 6."
+        },
+        {
+          "question": "Hva er 700 − 365?",
+          "answer": 335,
+          "explanation": "700 − 300 = 400, og 400 − 65 = 335."
+        },
+        {
+          "question": "Et rektangel er 8 cm langt og 3 cm bredt. Hvor lang er omkretsen?",
+          "answer": 22,
+          "unit": "cm",
+          "explanation": "Omkrets = 8 + 3 + 8 + 3 = 22 cm."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 2,4 · 0,5",
+          "answer": "1,2",
+          "explanation": "Å gange med 0,5 er det samme som å ta halvparten: 2,4 : 2 = 1,2."
+        },
+        {
+          "question": "Et kvadrat har areal 81 cm². Hvor lang er hver side?",
+          "answer": 9,
+          "unit": "cm",
+          "explanation": "Side · side = 81, og 9 · 9 = 81. Hver side er 9 cm."
+        },
+        {
+          "question": "Regn ut: −6 · 4",
+          "answer": -24,
+          "explanation": "6 · 4 = 24. Minus ganger pluss gir minus: −24."
+        }
+      ]
+    },
+    "2026-10-14": {
+      "simo": [
+        {
+          "question": "Hva er 7 · 8?",
+          "answer": 56,
+          "explanation": "7 · 8 = 56. Husk rekka 5, 6, 7, 8: 56 = 7 · 8."
+        },
+        {
+          "question": "Hvor mange minutter er det fra 14.35 til 15.10?",
+          "answer": 35,
+          "unit": "min",
+          "explanation": "Fra 14.35 til 15.00 er 25 minutter, og fra 15.00 til 15.10 er 10 minutter. 25 + 10 = 35."
+        },
+        {
+          "question": "Hvilket tall mangler? 100, 90, 80, __, 60",
+          "answer": 70,
+          "explanation": "Tallet blir 10 mindre hver gang: 80 − 10 = 70."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Skriv 7/20 som prosent.",
+          "answer": 35,
+          "unit": "%",
+          "explanation": "Gang teller og nevner med 5: 7/20 = 35/100 = 35 %."
+        },
+        {
+          "question": "En genser koster 240 kr. Prisen øker med 15 %. Hva er den nye prisen?",
+          "answer": 276,
+          "unit": "kr",
+          "explanation": "10 % av 240 er 24 og 5 % er 12, så 15 % er 36. 240 + 36 = 276 kr."
+        },
+        {
+          "question": "Hva er gjennomsnittet av 4, 7, 9 og 12?",
+          "answer": 8,
+          "explanation": "Summen er 4 + 7 + 9 + 12 = 32. 32 : 4 = 8."
+        }
+      ]
+    },
+    "2026-10-15": {
+      "simo": [
+        {
+          "question": "Hva er 36 : 4?",
+          "answer": 9,
+          "explanation": "4 · 9 = 36, så 36 : 4 = 9."
+        },
+        {
+          "question": "Hva er 4 · 120?",
+          "answer": 480,
+          "explanation": "4 · 100 = 400 og 4 · 20 = 80. 400 + 80 = 480."
+        },
+        {
+          "question": "Simo har 3 femtilapper og 2 tikroner. Hvor mange kroner har han?",
+          "answer": 170,
+          "unit": "kr",
+          "explanation": "3 · 50 = 150 og 2 · 10 = 20. 150 + 20 = 170 kroner."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 5/6 − 1/3",
+          "answer": "1/2",
+          "accept": [
+            "3/6",
+            "0,5"
+          ],
+          "input": "text",
+          "explanation": "1/3 = 2/6. 5/6 − 2/6 = 3/6, og 3/6 = 1/2."
+        },
+        {
+          "question": "Hvor mange milliliter er 0,75 liter?",
+          "answer": 750,
+          "unit": "mL",
+          "explanation": "1 liter = 1000 mL, så 0,75 liter = 750 mL."
+        },
+        {
+          "question": "Løs likningen: x : 4 = 9",
+          "answer": 36,
+          "explanation": "x = 9 · 4 = 36."
+        }
+      ]
+    },
+    "2026-10-16": {
+      "simo": [
+        {
+          "question": "Hva er 12 · 3?",
+          "answer": 36,
+          "explanation": "10 · 3 = 30 og 2 · 3 = 6. 30 + 6 = 36."
+        },
+        {
+          "question": "Hva er 1000 − 640?",
+          "answer": 360,
+          "explanation": "Fra 640 til 700 er 60, og fra 700 til 1000 er 300. 60 + 300 = 360."
+        },
+        {
+          "question": "En film varer i 1 time og 25 minutter. Hvor mange minutter er det?",
+          "answer": 85,
+          "unit": "min",
+          "explanation": "1 time = 60 minutter. 60 + 25 = 85 minutter."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 3 + 6 · (8 − 5)",
+          "answer": 21,
+          "explanation": "Parentesen først: 8 − 5 = 3. Så 6 · 3 = 18. Til slutt 3 + 18 = 21."
+        },
+        {
+          "question": "Hva er 3/8 av 64?",
+          "answer": 24,
+          "explanation": "64 : 8 = 8, og 8 · 3 = 24."
+        },
+        {
+          "question": "En trekant har grunnlinje 10 cm og høyde 6 cm. Hva er arealet?",
+          "answer": 30,
+          "unit": "cm²",
+          "explanation": "Areal = grunnlinje · høyde : 2 = 10 · 6 : 2 = 30 cm²."
+        }
+      ]
+    },
+    "2026-10-17": {
+      "simo": [
+        {
+          "question": "Hva er 5 · 9?",
+          "answer": 45,
+          "explanation": "5 · 9 = 45. Tips: 10 · 9 = 90, og halvparten er 45."
+        },
+        {
+          "question": "Hvor mange gram er 3 kg?",
+          "answer": 3000,
+          "unit": "g",
+          "explanation": "1 kg = 1000 gram, så 3 kg = 3000 gram."
+        },
+        {
+          "question": "Det er 24 elever i klassen. De deles i grupper på 4. Hvor mange grupper blir det?",
+          "answer": 6,
+          "explanation": "24 : 4 = 6 grupper."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 0,6 + 0,75",
+          "answer": "1,35",
+          "explanation": "0,60 + 0,75 = 1,35. Tips: skriv begge med to desimaler."
+        },
+        {
+          "question": "Regn ut: 7² − 9",
+          "answer": 40,
+          "explanation": "7² = 7 · 7 = 49. 49 − 9 = 40."
+        },
+        {
+          "question": "Forholdet mellom saft og vann er 1 : 5. Hvor mange dL vann trenger du til 2 dL saft?",
+          "answer": 10,
+          "unit": "dL",
+          "explanation": "For hver dL saft trengs 5 dL vann. 2 · 5 = 10 dL."
+        }
+      ]
+    },
+    "2026-10-18": {
+      "simo": [
+        {
+          "question": "Hva er 64 : 8?",
+          "answer": 8,
+          "explanation": "8 · 8 = 64, så 64 : 8 = 8."
+        },
+        {
+          "question": "Hva er 199 + 199?",
+          "answer": 398,
+          "explanation": "200 + 200 = 400. Vi la til 1 for mye to ganger, så 400 − 2 = 398."
+        },
+        {
+          "question": "Hvilken brøk er størst: 1/2, 1/3 eller 1/4?",
+          "answer": "1/2",
+          "input": "text",
+          "explanation": "Jo færre biter en hel deles i, jo større blir hver bit. 1/2 er størst."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Hva er 20 % av 45?",
+          "answer": 9,
+          "explanation": "20 % er en femtedel: 45 : 5 = 9."
+        },
+        {
+          "question": "Løs likningen: 2(x + 3) = 22",
+          "answer": 8,
+          "explanation": "Del på 2: x + 3 = 11. Så x = 11 − 3 = 8."
+        },
+        {
+          "question": "Et tog går 09.48 og kommer fram 11.15. Hvor mange minutter varer turen?",
+          "answer": 87,
+          "unit": "min",
+          "explanation": "Fra 09.48 til 10.00 er 12 minutter, og fra 10.00 til 11.15 er 75 minutter. 12 + 75 = 87."
+        }
+      ]
+    }
+  }
+}

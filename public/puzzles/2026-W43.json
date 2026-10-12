@@ -1,0 +1,287 @@
+{
+  "week": "2026-W43",
+  "days": {
+    "2026-10-19": {
+      "simo": [
+        {
+          "question": "Hva er 8 · 6?",
+          "answer": 48,
+          "explanation": "8 · 6 = 48."
+        },
+        {
+          "question": "Hva er 456 − 129?",
+          "answer": 327,
+          "explanation": "456 − 100 = 356, og 356 − 29 = 327."
+        },
+        {
+          "question": "En pakke tyggis koster 15 kroner. Hva koster 4 pakker?",
+          "answer": 60,
+          "unit": "kr",
+          "explanation": "4 · 15 = 60 kroner. Tips: 2 pakker koster 30, og 4 pakker koster det dobbelte."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 3/5 · 10",
+          "answer": 6,
+          "explanation": "10 : 5 = 2, og 2 · 3 = 6."
+        },
+        {
+          "question": "Skriv 1/8 som desimaltall.",
+          "answer": "0,125",
+          "explanation": "1/4 = 0,25, og 1/8 er halvparten: 0,125."
+        },
+        {
+          "question": "En hage er 12 m lang og 7,5 m bred. Hvor stort er arealet?",
+          "answer": 90,
+          "unit": "m²",
+          "explanation": "12 · 7 = 84 og 12 · 0,5 = 6. 84 + 6 = 90 m²."
+        }
+      ]
+    },
+    "2026-10-20": {
+      "simo": [
+        {
+          "question": "Hva er 7 · 7?",
+          "answer": 49,
+          "explanation": "7 · 7 = 49."
+        },
+        {
+          "question": "Hvor mange centimeter er 2 meter og 35 cm?",
+          "answer": 235,
+          "unit": "cm",
+          "explanation": "2 meter = 200 cm. 200 + 35 = 235 cm."
+        },
+        {
+          "question": "Klokka er 10.50. Hva er klokka om 25 minutter?",
+          "answer": "11.15",
+          "accept": [
+            "11:15"
+          ],
+          "explanation": "10 minutter tar oss til 11.00. Da er det 15 minutter igjen: 11.15."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: −3 − (−8)",
+          "answer": 5,
+          "explanation": "Å trekke fra et negativt tall er det samme som å legge til: −3 + 8 = 5."
+        },
+        {
+          "question": "Regn ut: 0,4 · 0,3",
+          "answer": "0,12",
+          "explanation": "4 · 3 = 12. Det er to desimaler til sammen, så svaret er 0,12."
+        },
+        {
+          "question": "En bil bruker 0,6 liter bensin per mil. Hvor mange liter bruker den på 15 mil?",
+          "answer": 9,
+          "unit": "L",
+          "explanation": "15 · 0,6 = 9 liter. Tips: 15 · 6 = 90, og så deler vi på 10."
+        }
+      ]
+    },
+    "2026-10-21": {
+      "simo": [
+        {
+          "question": "Hva er 45 : 5?",
+          "answer": 9,
+          "explanation": "5 · 9 = 45, så 45 : 5 = 9."
+        },
+        {
+          "question": "Hva er 25 + 35 + 45?",
+          "answer": 105,
+          "explanation": "25 + 35 = 60, og 60 + 45 = 105."
+        },
+        {
+          "question": "Et kvadrat har omkrets 36 cm. Hvor lang er hver side?",
+          "answer": 9,
+          "unit": "cm",
+          "explanation": "Et kvadrat har 4 like sider: 36 : 4 = 9 cm."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Hvilket tall er størst: 3/4, 0,7 eller 72 %?",
+          "answer": "3/4",
+          "accept": [
+            "0,75"
+          ],
+          "input": "text",
+          "explanation": "Skriv alt som desimaltall: 3/4 = 0,75, 0,7 og 72 % = 0,72. 0,75 er størst."
+        },
+        {
+          "question": "Løs likningen: 7x = 4x + 18",
+          "answer": 6,
+          "explanation": "Trekk fra 4x på begge sider: 3x = 18. Så x = 6."
+        },
+        {
+          "question": "En sykkel settes ned fra 3000 kr til 2400 kr. Hvor mange prosent er rabatten?",
+          "answer": 20,
+          "unit": "%",
+          "explanation": "Rabatten er 600 kr. 600/3000 = 1/5 = 20 %."
+        }
+      ]
+    },
+    "2026-10-22": {
+      "simo": [
+        {
+          "question": "Hva er 11 · 6?",
+          "answer": 66,
+          "explanation": "10 · 6 = 60, og 60 + 6 = 66."
+        },
+        {
+          "question": "Hva er en tredjedel av 27?",
+          "answer": 9,
+          "explanation": "27 : 3 = 9."
+        },
+        {
+          "question": "Simo går 450 meter til skolen og samme vei hjem. Hvor mange meter går han til sammen?",
+          "answer": 900,
+          "unit": "m",
+          "explanation": "450 + 450 = 900 meter."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 1 1/2 + 2 3/4",
+          "answer": "4 1/4",
+          "accept": [
+            "17/4",
+            "4,25"
+          ],
+          "input": "text",
+          "explanation": "1 + 2 = 3. 1/2 + 3/4 = 2/4 + 3/4 = 5/4 = 1 1/4. 3 + 1 1/4 = 4 1/4."
+        },
+        {
+          "question": "Hva er 125 % av 80?",
+          "answer": 100,
+          "explanation": "100 % er 80 og 25 % er 20. 80 + 20 = 100."
+        },
+        {
+          "question": "En kube har sider på 4 cm. Hva er volumet?",
+          "answer": 64,
+          "unit": "cm³",
+          "explanation": "Volum = 4 · 4 · 4 = 64 cm³."
+        }
+      ]
+    },
+    "2026-10-23": {
+      "simo": [
+        {
+          "question": "Hva er 63 : 7?",
+          "answer": 9,
+          "explanation": "7 · 9 = 63, så 63 : 7 = 9."
+        },
+        {
+          "question": "Hva er 380 + 470?",
+          "answer": 850,
+          "explanation": "300 + 400 = 700 og 80 + 70 = 150. 700 + 150 = 850."
+        },
+        {
+          "question": "Hvor mange dager er det i 5 uker?",
+          "answer": 35,
+          "unit": "dager",
+          "explanation": "En uke har 7 dager. 5 · 7 = 35 dager."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 48 : 0,5",
+          "answer": 96,
+          "explanation": "Hvor mange halve er det i 48? To i hver hel, så 48 · 2 = 96."
+        },
+        {
+          "question": "Rund av 3,476 til én desimal.",
+          "answer": "3,5",
+          "explanation": "Se på hundredelene: 7 er 5 eller mer, så vi runder opp. 3,476 ≈ 3,5."
+        },
+        {
+          "question": "Aurora løper 400 m på 80 sekunder. Hvor mange meter løper hun i sekundet?",
+          "answer": 5,
+          "unit": "m",
+          "explanation": "400 : 80 = 5 meter per sekund."
+        }
+      ]
+    },
+    "2026-10-24": {
+      "simo": [
+        {
+          "question": "Hva er 8 · 9?",
+          "answer": 72,
+          "explanation": "8 · 9 = 72. Tips: 8 · 10 = 80, og 80 − 8 = 72."
+        },
+        {
+          "question": "Hva er 600 − 275?",
+          "answer": 325,
+          "explanation": "Fra 275 til 300 er 25, og fra 300 til 600 er 300. 25 + 300 = 325."
+        },
+        {
+          "question": "Hvilket tall mangler? 2, 5, 8, 11, __",
+          "answer": 14,
+          "explanation": "Tallet blir 3 større hver gang: 11 + 3 = 14."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 2/5 + 3/10",
+          "answer": "7/10",
+          "accept": [
+            "0,7"
+          ],
+          "input": "text",
+          "explanation": "2/5 = 4/10. 4/10 + 3/10 = 7/10."
+        },
+        {
+          "question": "Summen av to tall er 50. Det ene tallet er 14 større enn det andre. Hva er det minste tallet?",
+          "answer": 18,
+          "explanation": "Ta bort forskjellen: 50 − 14 = 36. Del likt: 36 : 2 = 18. (Det andre tallet er 32.)"
+        },
+        {
+          "question": "Hvor mange minutter er 2,25 timer?",
+          "answer": 135,
+          "unit": "min",
+          "explanation": "2 timer = 120 minutter, og 0,25 time er et kvarter = 15 minutter. 120 + 15 = 135."
+        }
+      ]
+    },
+    "2026-10-25": {
+      "simo": [
+        {
+          "question": "Hva er 56 : 8?",
+          "answer": 7,
+          "explanation": "8 · 7 = 56, så 56 : 8 = 7."
+        },
+        {
+          "question": "Hvor mange minutter er en halvtime og et kvarter?",
+          "answer": 45,
+          "unit": "min",
+          "explanation": "En halvtime er 30 minutter og et kvarter er 15 minutter. 30 + 15 = 45."
+        },
+        {
+          "question": "Simo har 85 kroner og får 40 kroner til. Så kjøper han en bok til 70 kroner. Hvor mye har han igjen?",
+          "answer": 55,
+          "unit": "kr",
+          "explanation": "85 + 40 = 125, og 125 − 70 = 55 kroner."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Løs likningen: 3x − 7 = 2x + 5",
+          "answer": 12,
+          "explanation": "Trekk fra 2x: x − 7 = 5. Legg til 7: x = 12."
+        },
+        {
+          "question": "Hva er 1/5 av 350?",
+          "answer": 70,
+          "explanation": "350 : 5 = 70."
+        },
+        {
+          "question": "Temperaturen er −4 °C og synker med 9 grader. Hva blir temperaturen?",
+          "answer": -13,
+          "unit": "°C",
+          "explanation": "Start på −4 og gå 9 steg ned på tallinja: −4 − 9 = −13 °C."
+        }
+      ]
+    }
+  }
+}

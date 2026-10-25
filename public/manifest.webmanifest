@@ -1,7 +1,7 @@
 {
   "name": "Mattemagi",
   "short_name": "Mattemagi",
-  "description": "Tre magiske mattegåter hver dag.",
+  "description": "Magiske mattegåter hver dag.",
   "lang": "nb",
   "start_url": "./",
   "scope": "./",

@@ -1,5 +1,4 @@
 import type { Child } from '../domain/puzzles'
-import { PUZZLES_PER_DAY } from '../domain/puzzles'
 import { MAX_STARS, totalStars, type PuzzleResult } from '../domain/scoring'
 import { nb } from '../i18n/nb'
 import { Avatar } from './Avatar'
@@ -37,8 +36,8 @@ export function ChildPicker({ kids, puzzleCount, resultsFor, onPick }: ChildPick
               <span className="child-card__grade">{nb.grade(child.grade)}</span>
               {count > 0 && (
                 <Stars
-                  filled={Math.round((stars / (count * MAX_STARS)) * PUZZLES_PER_DAY)}
-                  total={PUZZLES_PER_DAY}
+                  filled={Math.round(stars / MAX_STARS)}
+                  total={count}
                   size="sm"
                   label={nb.starsToday(stars, count * MAX_STARS)}
                 />

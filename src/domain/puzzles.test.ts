@@ -66,6 +66,12 @@ describe('week files', () => {
     ])
     expect(validateWeekFile(week, ['simo'], '2026-W39')).toEqual([])
   })
+
+  it('uses puzzlesPerDay when the week sets it', () => {
+    expect(validateWeekFile({ ...week, puzzlesPerDay: 6 }, ['simo'])).toEqual(['2026-09-25 simo: needs 6 puzzles, has 3'])
+    expect(validateWeekFile({ ...week, puzzlesPerDay: 3 }, ['simo'])).toEqual([])
+    expect(validateWeekFile({ ...week, puzzlesPerDay: 0 }, ['simo'])).toContain('puzzlesPerDay must be a positive whole number')
+  })
 })
 
 describe('published data', () => {

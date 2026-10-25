@@ -1,0 +1,518 @@
+{
+  "week": "2026-W48",
+  "puzzlesPerDay": 6,
+  "days": {
+    "2026-11-23": {
+      "simo": [
+        {
+          "question": "Hva er 8 · 7?",
+          "answer": 56,
+          "explanation": "8 · 7 = 56. Tips: 8 · 5 = 40 og 8 · 2 = 16. 40 + 16 = 56."
+        },
+        {
+          "question": "Hva er 35 : 5?",
+          "answer": 7,
+          "explanation": "5 · 7 = 35, så 35 : 5 = 7."
+        },
+        {
+          "question": "Hva er 467 + 286?",
+          "answer": 753,
+          "explanation": "400 + 200 = 600 og 67 + 86 = 153. 600 + 153 = 753."
+        },
+        {
+          "question": "Hva er 1500 − 1335?",
+          "answer": 165,
+          "explanation": "1500 − 1300 = 200, og 200 − 35 = 165."
+        },
+        {
+          "question": "Black Friday! En genser som kostet 300 kr, selges nå til halv pris. Hva koster genseren nå?",
+          "answer": 150,
+          "unit": "kr",
+          "explanation": "Halvparten av 300 er 300 : 2 = 150 kr."
+        },
+        {
+          "question": "Hvor mange centimeter er 4 meter?",
+          "answer": 400,
+          "unit": "cm",
+          "explanation": "1 meter = 100 cm, så 4 meter = 4 · 100 = 400 cm."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Hva er 25 % av 360?",
+          "answer": 90,
+          "explanation": "25 % er en firedel. 360 : 4 = 90."
+        },
+        {
+          "question": "Regn ut: 2/3 + 1/6",
+          "answer": "5/6",
+          "accept": [
+            "10/12"
+          ],
+          "input": "text",
+          "explanation": "Gjør om til sjettedeler: 2/3 = 4/6. 4/6 + 1/6 = 5/6."
+        },
+        {
+          "question": "Regn ut: 4 + 6 · 3 − 2²",
+          "answer": 18,
+          "explanation": "Potens først: 2² = 4. Så gange: 6 · 3 = 18. 4 + 18 − 4 = 18."
+        },
+        {
+          "question": "Løs likningen: 7x + 10 = 59",
+          "answer": 7,
+          "explanation": "Trekk fra 10: 7x = 49. Del på 7: x = 7."
+        },
+        {
+          "question": "Black Friday! En jakke koster 1200 kr og er satt ned med 30 %. Hva er den nye prisen?",
+          "answer": 840,
+          "unit": "kr",
+          "explanation": "10 % av 1200 er 120, så 30 % er 360. 1200 − 360 = 840 kr."
+        },
+        {
+          "question": "Et kvadrat har omkrets 20 cm. Hva er arealet?",
+          "answer": 25,
+          "unit": "cm²",
+          "explanation": "Et kvadrat har fire like sider: 20 : 4 = 5 cm. Arealet er 5 · 5 = 25 cm²."
+        }
+      ]
+    },
+    "2026-11-24": {
+      "simo": [
+        {
+          "question": "Hva er 6 · 7?",
+          "answer": 42,
+          "explanation": "6 · 7 = 42. Tips: 6 · 6 = 36, og 36 + 6 = 42."
+        },
+        {
+          "question": "Hva er 63 : 7?",
+          "answer": 9,
+          "explanation": "7 · 9 = 63, så 63 : 7 = 9."
+        },
+        {
+          "question": "Hva er 1775 + 290?",
+          "answer": 2065,
+          "explanation": "1775 + 200 = 1975, og 1975 + 90 = 2065."
+        },
+        {
+          "question": "Hva er 25 · 3?",
+          "answer": 75,
+          "explanation": "25 · 3 = 25 + 25 + 25 = 75. Tips: tre 25-øringer er 75 øre."
+        },
+        {
+          "question": "Hvor mange desiliter er 5 liter?",
+          "answer": 50,
+          "unit": "dl",
+          "explanation": "1 liter = 10 dl, så 5 liter = 50 dl."
+        },
+        {
+          "question": "Simo har 200 kr. Han kjøper en bok til 129 kr på salg. Hvor mye har han igjen?",
+          "answer": 71,
+          "unit": "kr",
+          "explanation": "200 − 130 = 70. Boka kostet 1 kr mindre enn 130, så han har 70 + 1 = 71 kr igjen."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Skriv 3/5 som desimaltall.",
+          "answer": "0,6",
+          "explanation": "3/5 = 6/10 = 0,6."
+        },
+        {
+          "question": "Regn ut: −7 + 3 − 5",
+          "answer": -9,
+          "input": "text",
+          "explanation": "−7 + 3 = −4. −4 − 5 = −9."
+        },
+        {
+          "question": "Regn ut: 0,9 · 0,4",
+          "answer": "0,36",
+          "explanation": "9 · 4 = 36. Det er to desimaler til sammen, så svaret er 0,36."
+        },
+        {
+          "question": "Et spill koster 450 kr. På Black Friday er det 20 % rabatt. Hvor mange kroner sparer du?",
+          "answer": 90,
+          "unit": "kr",
+          "explanation": "10 % av 450 er 45, så 20 % er 2 · 45 = 90 kr."
+        },
+        {
+          "question": "Et kart har målestokk 1 : 20 000. Hvor mange km er 9 cm på kartet i virkeligheten?",
+          "answer": "1,8",
+          "unit": "km",
+          "explanation": "9 · 20 000 = 180 000 cm. Det er 1800 m, altså 1,8 km."
+        },
+        {
+          "question": "Aurora løp fire runder på 7, 12, 9 og 8 minutter. Hva var gjennomsnittstiden per runde?",
+          "answer": 9,
+          "unit": "min",
+          "explanation": "Summen er 7 + 12 + 9 + 8 = 36 minutter. 36 : 4 = 9 minutter."
+        }
+      ]
+    },
+    "2026-11-25": {
+      "simo": [
+        {
+          "question": "Hva er 3 · 8?",
+          "answer": 24,
+          "explanation": "3 · 8 = 24. Tips: 2 · 8 = 16, og 16 + 8 = 24."
+        },
+        {
+          "question": "Hva er 56 : 8?",
+          "answer": 7,
+          "explanation": "8 · 7 = 56, så 56 : 8 = 7."
+        },
+        {
+          "question": "Hva er 702 − 288?",
+          "answer": 414,
+          "explanation": "702 − 300 = 402. Vi trakk fra 12 for mye, så 402 + 12 = 414."
+        },
+        {
+          "question": "Hva er 1/2 av 14?",
+          "answer": 7,
+          "explanation": "1/2 av noe betyr å dele i 2 like deler: 14 : 2 = 7."
+        },
+        {
+          "question": "Klokka er 13.45. Filmen varer i 1 time og 30 minutter. Når slutter filmen?",
+          "answer": "15.15",
+          "accept": [
+            "15:15"
+          ],
+          "explanation": "1 time etter 13.45 er 14.45. 30 minutter til gir 15.15."
+        },
+        {
+          "question": "En pakke mel veier 2 kg. Mamma bruker 750 g til julebaksten. Hvor mange gram mel er igjen?",
+          "answer": 1250,
+          "unit": "g",
+          "explanation": "2 kg = 2000 g. 2000 − 750 = 1250 g."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Hva er 2⁵?",
+          "answer": 32,
+          "explanation": "2⁵ = 2 · 2 · 2 · 2 · 2 = 32."
+        },
+        {
+          "question": "Regn ut: 1/2 − 1/12",
+          "answer": "5/12",
+          "input": "text",
+          "explanation": "Felles nevner 12: 1/2 = 6/12. 6/12 − 1/12 = 5/12."
+        },
+        {
+          "question": "Regn ut: 1,8 + 2,45",
+          "answer": "4,25",
+          "explanation": "Skriv 1,8 som 1,80. 1,80 + 2,45 = 4,25."
+        },
+        {
+          "question": "Løs likningen: x : 4 − 3 = 2",
+          "answer": 20,
+          "explanation": "Legg til 3: x : 4 = 5. Gang med 4: x = 20."
+        },
+        {
+          "question": "Vinkelsummen i en firkant er 360°. Tre av vinklene er 90°, 110° og 75°. Hvor stor er den fjerde vinkelen?",
+          "answer": 85,
+          "unit": "°",
+          "explanation": "90 + 110 + 75 = 275. 360 − 275 = 85°."
+        },
+        {
+          "question": "Black Friday-tilbud: «Kjøp 3 par sokker, betal for 2». Ett par koster 79 kr. Aurora tar 6 par. Hvor mye betaler hun?",
+          "answer": 316,
+          "unit": "kr",
+          "explanation": "For hver 3 par betaler hun for 2. 6 par er to slike tilbud, så hun betaler for 4 par. 4 · 79 = 316 kr."
+        }
+      ]
+    },
+    "2026-11-26": {
+      "simo": [
+        {
+          "question": "Hva er 9 · 9?",
+          "answer": 81,
+          "explanation": "9 · 9 = 81. Tips: 10 · 9 = 90, og 90 − 9 = 81."
+        },
+        {
+          "question": "Hva er 48 : 6?",
+          "answer": 8,
+          "explanation": "6 · 8 = 48, så 48 : 6 = 8."
+        },
+        {
+          "question": "Hva er 22 · 5?",
+          "answer": 110,
+          "explanation": "20 · 5 = 100 og 2 · 5 = 10. 100 + 10 = 110."
+        },
+        {
+          "question": "Hva er 1600 − 750?",
+          "answer": 850,
+          "explanation": "1600 − 700 = 900, og 900 − 50 = 850."
+        },
+        {
+          "question": "Hvor mange minutter er to og en halv time?",
+          "answer": 150,
+          "unit": "min",
+          "explanation": "1 time = 60 minutter. 2 timer = 120 minutter, og en halv time = 30 minutter. 120 + 30 = 150."
+        },
+        {
+          "question": "Simo kjøper 4 pakker julekort til 35 kr per pakke. Hvor mye betaler han?",
+          "answer": 140,
+          "unit": "kr",
+          "explanation": "4 · 30 = 120 og 4 · 5 = 20. 120 + 20 = 140 kr."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Hva er 15 % av 80?",
+          "answer": 12,
+          "explanation": "10 % av 80 er 8 og 5 % er 4. 8 + 4 = 12."
+        },
+        {
+          "question": "Regn ut: (−6) · (−4)",
+          "answer": 24,
+          "explanation": "Minus ganger minus gir pluss: 6 · 4 = 24."
+        },
+        {
+          "question": "Regn ut: 2 · (8 − 3)²",
+          "answer": 50,
+          "explanation": "Parentes først: 8 − 3 = 5. Potens: 5² = 25. Gange: 2 · 25 = 50."
+        },
+        {
+          "question": "Hva er 2/5 av 15?",
+          "answer": 6,
+          "explanation": "15 : 5 = 3, og 3 · 2 = 6."
+        },
+        {
+          "question": "En TV koster 4000 kr. På Black Friday får du 15 % rabatt. Hva blir den nye prisen?",
+          "answer": 3400,
+          "unit": "kr",
+          "explanation": "10 % av 4000 er 400 og 5 % er 200, så rabatten er 600 kr. 4000 − 600 = 3400 kr."
+        },
+        {
+          "question": "Saft blandes med 1 del saft og 5 deler vann. Hvor mange dl saft trenger du for å lage 18 dl ferdig drikke?",
+          "answer": 3,
+          "unit": "dl",
+          "explanation": "1 + 5 = 6 deler til sammen. 18 : 6 = 3 dl per del, og saften er 1 del: 3 dl."
+        }
+      ]
+    },
+    "2026-11-27": {
+      "simo": [
+        {
+          "question": "Hva er 5 · 9?",
+          "answer": 45,
+          "explanation": "5 · 9 = 45. Tips: 10 · 9 = 90, og halvparten er 45."
+        },
+        {
+          "question": "Hva er 36 : 4?",
+          "answer": 9,
+          "explanation": "4 · 9 = 36, så 36 : 4 = 9."
+        },
+        {
+          "question": "Hva er 529 + 368?",
+          "answer": 897,
+          "explanation": "500 + 300 = 800, 20 + 60 = 80 og 9 + 8 = 17. 800 + 80 + 17 = 897."
+        },
+        {
+          "question": "Hva er 3/4 av 16?",
+          "answer": 12,
+          "explanation": "Først en firedel: 16 : 4 = 4. Tre firedeler er 3 · 4 = 12."
+        },
+        {
+          "question": "Det er Black Friday! Et legosett koster 600 kr, men du får 100 kr i avslag. Simo kjøper 2 sett. Hvor mye betaler han?",
+          "answer": 1000,
+          "unit": "kr",
+          "explanation": "Ett sett koster 600 − 100 = 500 kr. To sett koster 2 · 500 = 1000 kr."
+        },
+        {
+          "question": "Hvor mange meter er 2 km og 350 m?",
+          "answer": 2350,
+          "unit": "m",
+          "explanation": "2 km = 2000 m. 2000 + 350 = 2350 m."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Skriv 1/5 som prosent.",
+          "answer": 20,
+          "unit": "%",
+          "explanation": "Gang teller og nevner med 20: 1/5 = 20/100 = 20 %."
+        },
+        {
+          "question": "Regn ut: 6,4 : 0,8",
+          "answer": 8,
+          "explanation": "Gang begge tallene med 10: 64 : 8 = 8."
+        },
+        {
+          "question": "Regn ut: −3 − 8 + 15",
+          "answer": 4,
+          "explanation": "−3 − 8 = −11. −11 + 15 = 4."
+        },
+        {
+          "question": "Løs likningen: 5x − 4 = 2x + 14",
+          "answer": 6,
+          "explanation": "Trekk fra 2x: 3x − 4 = 14. Legg til 4: 3x = 18. Del på 3: x = 6."
+        },
+        {
+          "question": "Et par sko koster 960 kr etter 20 % Black Friday-rabatt. Hva kostet skoene før rabatten?",
+          "answer": 1200,
+          "unit": "kr",
+          "explanation": "Etter rabatten betaler du 80 % av prisen. 80 % = 960, så 10 % = 120 og 100 % = 1200 kr."
+        },
+        {
+          "question": "En hage er 12 m lang og 7,5 m bred. Hva er arealet?",
+          "answer": 90,
+          "unit": "m²",
+          "explanation": "12 · 7 = 84 og 12 · 0,5 = 6. 84 + 6 = 90 m²."
+        }
+      ]
+    },
+    "2026-11-28": {
+      "simo": [
+        {
+          "question": "Hva er 6 · 9?",
+          "answer": 54,
+          "explanation": "6 · 9 = 54. Tips: 6 · 10 = 60, og 60 − 6 = 54."
+        },
+        {
+          "question": "Hva er 64 : 8?",
+          "answer": 8,
+          "explanation": "8 · 8 = 64, så 64 : 8 = 8."
+        },
+        {
+          "question": "Hva er 1240 + 690?",
+          "answer": 1930,
+          "explanation": "1240 + 700 = 1940. Vi la til 10 for mye, så 1940 − 10 = 1930."
+        },
+        {
+          "question": "Hva er 12 · 6?",
+          "answer": 72,
+          "explanation": "10 · 6 = 60 og 2 · 6 = 12. 60 + 12 = 72."
+        },
+        {
+          "question": "Simo og Aurora baker 48 pepperkaker og fordeler dem likt på 4 brett. Hvor mange pepperkaker blir det på hvert brett?",
+          "answer": 12,
+          "explanation": "48 : 4 = 12 pepperkaker på hvert brett."
+        },
+        {
+          "question": "En mugge har 1 liter saft. Simo heller opp 3 glass med 2 dl i hvert. Hvor mange dl er igjen i muggen?",
+          "answer": 4,
+          "unit": "dl",
+          "explanation": "1 liter = 10 dl. 3 · 2 = 6 dl er brukt. 10 − 6 = 4 dl."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Skriv 0,25 som en brøk på enklest mulig form.",
+          "answer": "1/4",
+          "accept": [
+            "25/100"
+          ],
+          "input": "text",
+          "explanation": "0,25 = 25/100. Del teller og nevner på 25: 1/4."
+        },
+        {
+          "question": "Regn ut: 1 1/2 + 2/3",
+          "answer": "13/6",
+          "accept": [
+            "2 1/6"
+          ],
+          "input": "text",
+          "explanation": "1 1/2 = 3/2. Fellesnevner 6: 9/6 + 4/6 = 13/6 (= 2 1/6)."
+        },
+        {
+          "question": "Regn ut: 48 : (2 + 6) · 3",
+          "answer": 18,
+          "explanation": "Parentes først: 2 + 6 = 8. Så fra venstre mot høyre: 48 : 8 = 6, og 6 · 3 = 18."
+        },
+        {
+          "question": "Om morgenen er det −5 °C. Utover dagen stiger temperaturen med 12 grader. Hvor mange grader er det da?",
+          "answer": 7,
+          "unit": "°C",
+          "explanation": "−5 + 12 = 7 °C."
+        },
+        {
+          "question": "Et kart har målestokk 1 : 200 000. To byer ligger 30 km fra hverandre. Hvor mange cm er avstanden på kartet?",
+          "answer": 15,
+          "unit": "cm",
+          "explanation": "30 km = 3 000 000 cm. 3 000 000 : 200 000 = 15 cm."
+        },
+        {
+          "question": "Aurora sparer 150 kr hver uke i 8 uker til julegaver. Hun bruker 3/4 av pengene på gaver. Hvor mange kroner bruker hun?",
+          "answer": 900,
+          "unit": "kr",
+          "explanation": "8 · 150 = 1200 kr. En firedel er 1200 : 4 = 300, så 3/4 er 3 · 300 = 900 kr."
+        }
+      ]
+    },
+    "2026-11-29": {
+      "simo": [
+        {
+          "question": "Hva er 11 · 4?",
+          "answer": 44,
+          "explanation": "11 · 4 = 44. Tips: 10 · 4 = 40, og 40 + 4 = 44."
+        },
+        {
+          "question": "Hva er 40 : 8?",
+          "answer": 5,
+          "explanation": "8 · 5 = 40, så 40 : 8 = 5."
+        },
+        {
+          "question": "Hva er 900 − 465?",
+          "answer": 435,
+          "explanation": "900 − 400 = 500, og 500 − 65 = 435."
+        },
+        {
+          "question": "I dag er det 1. søndag i advent. Det er én uke mellom hver adventssøndag. Hvor mange dager er det fra 1. til 4. søndag i advent?",
+          "answer": 21,
+          "unit": "dager",
+          "explanation": "Fra 1. til 4. søndag er det 3 uker. 3 · 7 = 21 dager."
+        },
+        {
+          "question": "Et adventslys er 18 cm høyt. Hver søndag brenner det ned 2 cm. Hvor høyt er lyset etter 4 søndager?",
+          "answer": 10,
+          "unit": "cm",
+          "explanation": "4 · 2 = 8 cm brenner ned. 18 − 8 = 10 cm."
+        },
+        {
+          "question": "Simo kjøper 3 adventslys til 45 kr per stykk og betaler med en 200-lapp. Hvor mye får han tilbake?",
+          "answer": 65,
+          "unit": "kr",
+          "explanation": "3 · 45 = 135 kr. 200 − 135 = 65 kr tilbake."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Skriv 13/20 som desimaltall.",
+          "answer": "0,65",
+          "accept": [
+            "13/20"
+          ],
+          "explanation": "Gang teller og nevner med 5: 13/20 = 65/100 = 0,65."
+        },
+        {
+          "question": "Regn ut: 3² + 4²",
+          "answer": 25,
+          "explanation": "3² = 9 og 4² = 16. 9 + 16 = 25."
+        },
+        {
+          "question": "Regn ut: 5 − 2,75",
+          "answer": "2,25",
+          "explanation": "5 − 2 = 3, og 3 − 0,75 = 2,25."
+        },
+        {
+          "question": "Det første adventslyset er 24 cm høyt og brenner ned 1,5 cm i timen. Hvor mange timer tar det før lyset er 15 cm høyt?",
+          "answer": 6,
+          "unit": "timer",
+          "explanation": "Lyset skal brenne ned 24 − 15 = 9 cm. 9 : 1,5 = 6 timer."
+        },
+        {
+          "question": "Aurora og Simo deler 35 klementiner i adventskurven i forholdet 4 : 3. Aurora får flest. Hvor mange klementiner får Aurora?",
+          "answer": 20,
+          "explanation": "4 + 3 = 7 deler. 35 : 7 = 5 per del. Aurora får 4 · 5 = 20 klementiner."
+        },
+        {
+          "question": "Aurora henger en lysslynge rundt hele kanten av et vindu som er 80 cm bredt og 1,2 m høyt. Hvor mange meter lysslynge trenger hun?",
+          "answer": 4,
+          "unit": "m",
+          "explanation": "80 cm = 0,8 m. Omkretsen er 2 · (0,8 + 1,2) = 2 · 2 = 4 m."
+        }
+      ]
+    }
+  }
+}

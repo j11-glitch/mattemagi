@@ -15,6 +15,8 @@ export interface Puzzle {
 /** A week of puzzles: date ("YYYY-MM-DD") -> child id -> puzzles for that day. */
 export interface WeekFile {
   readonly week: string
+  /** Puzzles per child per day; defaults to DEFAULT_PUZZLES_PER_DAY. */
+  readonly puzzlesPerDay?: number
   readonly days: Readonly<Record<string, Readonly<Record<string, readonly Puzzle[]>>>>
 }
 
@@ -26,7 +28,7 @@ export interface Child {
   readonly avatar: string
 }
 
-export const PUZZLES_PER_DAY = 3
+export const DEFAULT_PUZZLES_PER_DAY = 3
 
 export function puzzlesFor(week: WeekFile | null, date: string, childId: string): readonly Puzzle[] {
   return week?.days[date]?.[childId] ?? []
@@ -60,12 +62,14 @@ export function isCorrectAnswer(puzzle: Puzzle, input: string): boolean {
 export function validateWeekFile(file: WeekFile, childIds: readonly string[], expectedWeek?: string): string[] {
   const errors: string[] = []
   if (expectedWeek && file.week !== expectedWeek) errors.push(`week is "${file.week}", expected "${expectedWeek}"`)
+  const perDay = file.puzzlesPerDay ?? DEFAULT_PUZZLES_PER_DAY
+  if (!Number.isInteger(perDay) || perDay < 1) errors.push('puzzlesPerDay must be a positive whole number')
   for (const [date, children] of Object.entries(file.days ?? {})) {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) errors.push(`${date}: date must be YYYY-MM-DD`)
     for (const [childId, puzzles] of Object.entries(children)) {
       const where = `${date} ${childId}`
       if (!childIds.includes(childId)) errors.push(`${where}: unknown child "${childId}"`)
-      if (puzzles.length !== PUZZLES_PER_DAY) errors.push(`${where}: needs ${PUZZLES_PER_DAY} puzzles, has ${puzzles.length}`)
+      if (puzzles.length !== perDay) errors.push(`${where}: needs ${perDay} puzzles, has ${puzzles.length}`)
       puzzles.forEach((puzzle, i) => {
         if (!puzzle.question?.trim()) errors.push(`${where} #${i + 1}: missing question`)
         if (puzzle.answer === undefined || String(puzzle.answer).trim() === '') {

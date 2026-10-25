@@ -1,0 +1,526 @@
+{
+  "week": "2026-W49",
+  "puzzlesPerDay": 6,
+  "days": {
+    "2026-11-30": {
+      "simo": [
+        {
+          "question": "Hva er 8 · 6?",
+          "answer": 48,
+          "explanation": "8 · 6 = 48. Tips: 8 · 5 = 40, og 40 + 8 = 48."
+        },
+        {
+          "question": "Hva er 63 : 7?",
+          "answer": 9,
+          "explanation": "7 · 9 = 63, så 63 : 7 = 9."
+        },
+        {
+          "question": "Hva er 457 + 368?",
+          "answer": 825,
+          "explanation": "400 + 300 = 700 og 57 + 68 = 125. 700 + 125 = 825."
+        },
+        {
+          "question": "Hva er 1200 − 475?",
+          "answer": 725,
+          "explanation": "1200 − 400 = 800, og 800 − 75 = 725."
+        },
+        {
+          "question": "I morgen er det 1. desember, og Simo får åpne den første luka i julekalenderen. Kalenderen har 24 luker. Hvor mange luker er igjen når han har åpnet 7 av dem?",
+          "answer": 17,
+          "explanation": "24 − 7 = 17 luker igjen."
+        },
+        {
+          "question": "Mamma kjøper 3 pakker pepperkaker. Hver pakke koster 29 kr. Hvor mye koster de til sammen?",
+          "answer": 87,
+          "unit": "kr",
+          "explanation": "3 · 30 = 90. Hver pakke er 1 kr billigere, så 90 − 3 = 87 kr."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 1/6 + 9/10",
+          "answer": "16/15",
+          "input": "text",
+          "accept": [
+            "32/30",
+            "1 1/15"
+          ],
+          "explanation": "Felles nevner 30: 1/6 = 5/30 og 9/10 = 27/30. 5/30 + 27/30 = 32/30 = 16/15."
+        },
+        {
+          "question": "Hva er 40 % av 140?",
+          "answer": 56,
+          "explanation": "1 % av 140 er 1,4, så 40 % er 40 · 1,4 = 56."
+        },
+        {
+          "question": "Regn ut: 4 + 3 · 2²",
+          "answer": 16,
+          "explanation": "Potens først: 2² = 4. Så gange: 3 · 4 = 12. Til slutt 4 + 12 = 16."
+        },
+        {
+          "question": "Regn ut: −7 + 12 − 9",
+          "answer": -4,
+          "explanation": "−7 + 12 = 5, og 5 − 9 = −4."
+        },
+        {
+          "question": "Julekalenderen har 24 luker, og Aurora åpner én luke hver dag fra 1. desember. Hvor mange prosent av lukene har hun åpnet etter 6. desember?",
+          "answer": 25,
+          "unit": "%",
+          "explanation": "Hun har åpnet 6 av 24 luker. 6/24 = 1/4 = 25 %."
+        },
+        {
+          "question": "Bunnplaten til et pepperkakehus er et rektangel som er 18 cm langt og 12 cm bredt. Hva er arealet?",
+          "answer": 216,
+          "unit": "cm²",
+          "explanation": "Areal = lengde · bredde = 18 · 12. 18 · 10 = 180 og 18 · 2 = 36. 180 + 36 = 216 cm²."
+        }
+      ]
+    },
+    "2026-12-01": {
+      "simo": [
+        {
+          "question": "Hva er 9 · 7?",
+          "answer": 63,
+          "explanation": "9 · 7 = 63. Tips: 10 · 7 = 70, og 70 − 7 = 63."
+        },
+        {
+          "question": "Hva er 56 : 8?",
+          "answer": 7,
+          "explanation": "8 · 7 = 56, så 56 : 8 = 7."
+        },
+        {
+          "question": "Hva er 634 + 289?",
+          "answer": 923,
+          "explanation": "634 + 300 = 934. Men vi la til 11 for mye, så 934 − 11 = 923."
+        },
+        {
+          "question": "Hvor mange centimeter er 3 m og 45 cm?",
+          "answer": 345,
+          "unit": "cm",
+          "explanation": "1 m = 100 cm, så 3 m = 300 cm. 300 + 45 = 345 cm."
+        },
+        {
+          "question": "I dag åpner Simo den første luka i julekalenderen, og bak den er det 4 sjokoladebiter. Hvis alle de 24 lukene har 4 biter, hvor mange biter er det til sammen?",
+          "answer": 96,
+          "explanation": "24 · 4: 20 · 4 = 80 og 4 · 4 = 16. 80 + 16 = 96 biter."
+        },
+        {
+          "question": "Julelysene i hagen tennes klokka 15.45 og lyser i 2 timer og 30 minutter. Når slukker de?",
+          "answer": "18.15",
+          "accept": [
+            "18:15"
+          ],
+          "explanation": "15.45 + 2 timer = 17.45. 15 minutter til gir 18.00, og 15 minutter til gir 18.15."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 0,9 · 0,6",
+          "answer": "0,54",
+          "explanation": "9 · 6 = 54. Det er to desimaler til sammen, så svaret er 0,54."
+        },
+        {
+          "question": "Regn ut: 5 · (−4) + 30",
+          "answer": 10,
+          "explanation": "Gange først: 5 · (−4) = −20. Så −20 + 30 = 10."
+        },
+        {
+          "question": "Løs likningen: 5x + 7 = 42",
+          "answer": 7,
+          "explanation": "Trekk fra 7: 5x = 35. Del på 5: x = 7."
+        },
+        {
+          "question": "En julekalender kostet 240 kr. Nå er prisen satt ned med 25 %. Hva koster den nå?",
+          "answer": 180,
+          "unit": "kr",
+          "explanation": "25 % av 240 er 240 : 4 = 60. 240 − 60 = 180 kr."
+        },
+        {
+          "question": "Aurora baker pepperkaker. Oppskriften bruker 300 g mel til 40 kaker. Hvor mange gram mel trenger hun til 100 kaker?",
+          "answer": 750,
+          "unit": "g",
+          "explanation": "100 kaker er 2,5 ganger så mange som 40. 300 · 2,5 = 750 g."
+        },
+        {
+          "question": "Et julepynt har form som en likebeint trekant. Toppvinkelen er 40°. Hvor stor er hver av de to like vinklene?",
+          "answer": 70,
+          "unit": "°",
+          "explanation": "Vinkelsummen er 180°. 180 − 40 = 140, og 140 : 2 = 70°."
+        }
+      ]
+    },
+    "2026-12-02": {
+      "simo": [
+        {
+          "question": "Hva er 6 · 9?",
+          "answer": 54,
+          "explanation": "6 · 9 = 54. Tips: 6 · 10 = 60, og 60 − 6 = 54."
+        },
+        {
+          "question": "Hva er 81 : 9?",
+          "answer": 9,
+          "explanation": "9 · 9 = 81, så 81 : 9 = 9."
+        },
+        {
+          "question": "Hva er 1000 − 535?",
+          "answer": 465,
+          "explanation": "1000 − 500 = 500, og 500 − 35 = 465."
+        },
+        {
+          "question": "Hvor mange desiliter er 6 liter?",
+          "answer": 60,
+          "unit": "dl",
+          "explanation": "1 liter = 10 dl, så 6 liter = 60 dl."
+        },
+        {
+          "question": "Simo og pappa henger opp julelys. Hver lyslenke har 40 lys. De henger opp 3 lenker, men 5 av lysene virker ikke. Hvor mange lys lyser?",
+          "answer": 115,
+          "explanation": "3 · 40 = 120 lys. 120 − 5 = 115 lys som lyser."
+        },
+        {
+          "question": "Simo har 12 pepperkaker og spiser 1/4 av dem. Hvor mange pepperkaker spiser han?",
+          "answer": 3,
+          "explanation": "1/4 av 12 er 12 : 4 = 3."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 1/3 − 1/4",
+          "answer": "1/12",
+          "input": "text",
+          "explanation": "Felles nevner 12: 1/3 = 4/12 og 1/4 = 3/12. 4/12 − 3/12 = 1/12."
+        },
+        {
+          "question": "Skriv 1/4 som desimaltall.",
+          "answer": "0,25",
+          "accept": [
+            "1/4"
+          ],
+          "explanation": "Gang teller og nevner med 25: 1/4 = 25/100 = 0,25."
+        },
+        {
+          "question": "Regn ut: 50 − 4 · (6 + 3)",
+          "answer": 14,
+          "explanation": "Parentes først: 6 + 3 = 9. Så gange: 4 · 9 = 36. Til slutt 50 − 36 = 14."
+        },
+        {
+          "question": "Et kart har målestokk 1 : 25 000. Avstanden fra huset til Aurora til julemarkedet er 6 cm på kartet. Hvor mange meter er det i virkeligheten?",
+          "answer": 1500,
+          "unit": "m",
+          "explanation": "6 · 25 000 = 150 000 cm. 100 cm = 1 m, så det er 1500 m."
+        },
+        {
+          "question": "De fire siste dagene snødde det 12 cm, 7 cm, 0 cm og 9 cm. Hvor mye snødde det i gjennomsnitt per dag?",
+          "answer": 7,
+          "unit": "cm",
+          "explanation": "Summen er 12 + 7 + 0 + 9 = 28 cm. 28 : 4 = 7 cm."
+        },
+        {
+          "question": "Klokka 06 var temperaturen −11 °C. Klokka 14 var den −3 °C. Hvor mange grader steg temperaturen?",
+          "answer": 8,
+          "unit": "grader",
+          "explanation": "Fra −11 til −3 på tallinja: −3 − (−11) = −3 + 11 = 8 grader."
+        }
+      ]
+    },
+    "2026-12-03": {
+      "simo": [
+        {
+          "question": "Hva er 7 · 8?",
+          "answer": 56,
+          "explanation": "7 · 8 = 56. Tips: 5, 6, 7, 8 – altså 56 = 7 · 8."
+        },
+        {
+          "question": "Hva er 48 : 6?",
+          "answer": 8,
+          "explanation": "6 · 8 = 48, så 48 : 6 = 8."
+        },
+        {
+          "question": "Hva er 26 · 3?",
+          "answer": 78,
+          "explanation": "20 · 3 = 60 og 6 · 3 = 18. 60 + 18 = 78."
+        },
+        {
+          "question": "Hva er 1200 − 1055?",
+          "answer": 145,
+          "explanation": "1200 − 1000 = 200, og 200 − 55 = 145."
+        },
+        {
+          "question": "Simo har 200 kr. Han kjøper en julegave til 125 kr og et julekort til 39 kr. Hvor mye har han igjen?",
+          "answer": 36,
+          "unit": "kr",
+          "explanation": "125 + 39 = 164 kr. 200 − 164 = 36 kr."
+        },
+        {
+          "question": "Hvor mange minutter er 2 timer og 35 minutter?",
+          "answer": 155,
+          "unit": "min",
+          "explanation": "1 time = 60 minutter, så 2 timer = 120 minutter. 120 + 35 = 155 minutter."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 4/5 : 2",
+          "answer": "2/5",
+          "accept": [
+            "0,4",
+            "4/10"
+          ],
+          "input": "text",
+          "explanation": "Å dele på 2 er det samme som å ta halvparten av telleren: 4/5 : 2 = 2/5."
+        },
+        {
+          "question": "Regn ut: 2³ + 6²",
+          "answer": 44,
+          "explanation": "Potens først: 2³ = 8 og 6² = 36. 8 + 36 = 44."
+        },
+        {
+          "question": "Løs likningen: 3(x + 2) = 36",
+          "answer": 10,
+          "explanation": "Del på 3: x + 2 = 12. Trekk fra 2: x = 10."
+        },
+        {
+          "question": "En butikk solgte 80 pepperkakehus i november. I desember solgte de 35 % flere. Hvor mange pepperkakehus solgte de i desember?",
+          "answer": 108,
+          "explanation": "35 % av 80: 10 % er 8, så 35 % er 3,5 · 8 = 28. 80 + 28 = 108."
+        },
+        {
+          "question": "Aurora og Simo deler 56 pepperkaker i forholdet 4 : 3. Aurora får flest. Hvor mange pepperkaker får Aurora?",
+          "answer": 32,
+          "explanation": "4 + 3 = 7 deler. 56 : 7 = 8 kaker per del. Aurora får 4 · 8 = 32."
+        },
+        {
+          "question": "Aurora skal sette en lysslynge rundt et vindu. Vinduet er et rektangel som er 1,2 m bredt og 1,5 m høyt. Hvor mange meter lysslynge trenger hun?",
+          "answer": "5,4",
+          "unit": "m",
+          "explanation": "Omkretsen er 2 · (1,2 + 1,5) = 2 · 2,7 = 5,4 m."
+        }
+      ]
+    },
+    "2026-12-04": {
+      "simo": [
+        {
+          "question": "Hva er 3 · 8?",
+          "answer": 24,
+          "explanation": "3 · 8 = 24. Tips: 2 · 8 = 16, og 16 + 8 = 24."
+        },
+        {
+          "question": "Hva er 42 : 6?",
+          "answer": 7,
+          "explanation": "6 · 7 = 42, så 42 : 6 = 7."
+        },
+        {
+          "question": "Hva er 389 + 446?",
+          "answer": 835,
+          "explanation": "300 + 400 = 700 og 89 + 46 = 135. 700 + 135 = 835."
+        },
+        {
+          "question": "Hva er 905 − 467?",
+          "answer": 438,
+          "explanation": "905 − 500 = 405. Vi trakk fra 33 for mye, så 405 + 33 = 438."
+        },
+        {
+          "question": "En klump pepperkakedeig veier 1 kg. Simo bruker 650 g til pepperkaker. Hvor mange gram deig er igjen?",
+          "answer": 350,
+          "unit": "g",
+          "explanation": "1 kg = 1000 g. 1000 − 650 = 350 g."
+        },
+        {
+          "question": "Hvilken brøk er størst: 1/2, 1/3 eller 1/12?",
+          "answer": "1/2",
+          "input": "text",
+          "explanation": "Når telleren er 1, er brøken størst når nevneren er minst: da blir bitene størst."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 2 1/4 + 5/6",
+          "answer": "37/12",
+          "accept": [
+            "3 1/12"
+          ],
+          "input": "text",
+          "explanation": "2 1/4 = 9/4. Felles nevner 12: 27/12 + 10/12 = 37/12 (= 3 1/12)."
+        },
+        {
+          "question": "Hva er 8 % av 650?",
+          "answer": 52,
+          "explanation": "1 % av 650 er 6,5. 8 · 6,5 = 52."
+        },
+        {
+          "question": "Regn ut: −15 : 3 + 8",
+          "answer": 3,
+          "explanation": "Dele først: −15 : 3 = −5. Så −5 + 8 = 3."
+        },
+        {
+          "question": "Regn ut: 4,8 + 0,75",
+          "answer": "5,55",
+          "explanation": "Skriv 4,8 som 4,80. 4,80 + 0,75 = 5,55."
+        },
+        {
+          "question": "Snøen på garasjetaket er 45 cm dyp. Den smelter 1,5 cm i timen. Hvor mange timer tar det før det er 30 cm igjen?",
+          "answer": 10,
+          "unit": "timer",
+          "explanation": "Det må smelte 45 − 30 = 15 cm. 15 : 1,5 = 10 timer."
+        },
+        {
+          "question": "Klokka er nøyaktig 4.00. Hvor mange grader er den minste vinkelen mellom timeviseren og minuttviseren?",
+          "answer": 120,
+          "unit": "°",
+          "explanation": "Hele runden er 360°, fordelt på 12 timer: 360 : 12 = 30° per time. Fra 12 til 4 er 4 timer: 4 · 30 = 120°."
+        }
+      ]
+    },
+    "2026-12-05": {
+      "simo": [
+        {
+          "question": "Hva er 6 · 7?",
+          "answer": 42,
+          "explanation": "6 · 7 = 42. Tips: 6 · 6 = 36, og 36 + 6 = 42."
+        },
+        {
+          "question": "Hva er 54 : 9?",
+          "answer": 6,
+          "explanation": "9 · 6 = 54, så 54 : 9 = 6."
+        },
+        {
+          "question": "Hva er 41 · 5?",
+          "answer": 205,
+          "explanation": "40 · 5 = 200 og 1 · 5 = 5. 200 + 5 = 205."
+        },
+        {
+          "question": "Hva er 1625 + 290?",
+          "answer": 1915,
+          "explanation": "1625 + 200 = 1825, og 1825 + 90 = 1915."
+        },
+        {
+          "question": "Simo lager pepperkakehus. Hvert hus trenger 4 veggplater og 2 takplater. Hvor mange plater trenger han til 3 hus?",
+          "answer": 18,
+          "explanation": "Hvert hus trenger 4 + 2 = 6 plater. 3 · 6 = 18 plater."
+        },
+        {
+          "question": "Lørdagsfilmen starter klokka 17.50 og varer i 1 time og 25 minutter. Når er filmen ferdig?",
+          "answer": "19.15",
+          "accept": [
+            "19:15"
+          ],
+          "explanation": "17.50 + 1 time = 18.50. 10 minutter til gir 19.00, og 15 minutter til gir 19.15."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 9/10 · 5/12",
+          "answer": "3/8",
+          "input": "text",
+          "accept": [
+            "45/120",
+            "0,375"
+          ],
+          "explanation": "Teller · teller og nevner · nevner: 45/120 = 3/8."
+        },
+        {
+          "question": "Regn ut: 2,4 : 0,6",
+          "answer": 4,
+          "explanation": "Gang begge med 10: 24 : 6 = 4."
+        },
+        {
+          "question": "Regn ut: 10³ − 10²",
+          "answer": 900,
+          "explanation": "10³ = 1000 og 10² = 100. 1000 − 100 = 900."
+        },
+        {
+          "question": "Løs likningen: x : 4 − 3 = 5",
+          "answer": 32,
+          "explanation": "Legg til 3: x : 4 = 8. Gang med 4: x = 32."
+        },
+        {
+          "question": "Aurora har spart 360 kr til julegaver. Det er 40 % av det hun trenger. Hvor mye trenger hun i alt?",
+          "answer": 900,
+          "unit": "kr",
+          "explanation": "40 % er 360 kr, så 10 % er 360 : 4 = 90 kr. 100 % er 10 · 90 = 900 kr."
+        },
+        {
+          "question": "Aurora gikk fire runder i skisporet. Rundene tok 5,2 min, 4,8 min, 5,0 min og 5,4 min. Hvor lang tid brukte hun i gjennomsnitt per runde?",
+          "answer": "5,1",
+          "unit": "min",
+          "explanation": "Summen er 5,2 + 4,8 + 5,0 + 5,4 = 20,4 min. 20,4 : 4 = 5,1 min."
+        }
+      ]
+    },
+    "2026-12-06": {
+      "simo": [
+        {
+          "question": "Hva er 5 · 9?",
+          "answer": 45,
+          "explanation": "5 · 9 = 45. Tips: 10 · 9 = 90, og halvparten er 45."
+        },
+        {
+          "question": "Hva er 64 : 8?",
+          "answer": 8,
+          "explanation": "8 · 8 = 64, så 64 : 8 = 8."
+        },
+        {
+          "question": "Hva er 760 + 580?",
+          "answer": 1340,
+          "explanation": "700 + 500 = 1200 og 60 + 80 = 140. 1200 + 140 = 1340."
+        },
+        {
+          "question": "Hva er 1600 − 815?",
+          "answer": 785,
+          "explanation": "1600 − 800 = 800, og 800 − 15 = 785."
+        },
+        {
+          "question": "I dag er det 6. desember, og Simo har åpnet dagens luke i julekalenderen. Kalenderen har 24 luker. Hvor mange luker er det igjen å åpne?",
+          "answer": 18,
+          "explanation": "Han har åpnet lukene 1 til 6, altså 6 luker. 24 − 6 = 18 luker igjen."
+        },
+        {
+          "question": "Simo kjøper 4 julekuler til 15 kr per stykk og betaler med en 100-lapp. Hvor mye får han tilbake?",
+          "answer": 40,
+          "unit": "kr",
+          "explanation": "4 · 15 = 60 kr. 100 − 60 = 40 kr tilbake."
+        }
+      ],
+      "aurora": [
+        {
+          "question": "Regn ut: 7/8 − 1/4",
+          "answer": "5/8",
+          "accept": [
+            "10/16",
+            "0,625"
+          ],
+          "input": "text",
+          "explanation": "1/4 = 2/8. 7/8 − 2/8 = 5/8."
+        },
+        {
+          "question": "Skriv 3/5 som prosent.",
+          "answer": 60,
+          "unit": "%",
+          "explanation": "3/5 = 6/10 = 60/100 = 60 %."
+        },
+        {
+          "question": "Regn ut: (8 − 11) · 4 + 20",
+          "answer": 8,
+          "explanation": "Parentes først: 8 − 11 = −3. Så gange: −3 · 4 = −12. Til slutt −12 + 20 = 8."
+        },
+        {
+          "question": "Det er 2. søndag i advent. Et adventslys var 25 cm høyt, og nå er det 19 cm. Hvor mange prosent av lyset har brent opp?",
+          "answer": 24,
+          "unit": "%",
+          "explanation": "Det har brent 25 − 19 = 6 cm. 6/25 = 24/100 = 24 %."
+        },
+        {
+          "question": "På julemarkedet selges varm saft i kopper på 2 dl. Hvor mange kopper kan de fylle fra en gryte med 8,4 liter?",
+          "answer": 42,
+          "explanation": "1 liter = 10 dl, så 8,4 liter = 84 dl. 84 : 2 = 42 kopper."
+        },
+        {
+          "question": "Et kvadratisk julekort har omkrets 48 cm. Hva er arealet av kortet?",
+          "answer": 144,
+          "unit": "cm²",
+          "explanation": "Alle fire sider er like: 48 : 4 = 12 cm. Areal = 12 · 12 = 144 cm²."
+        }
+      ]
+    }
+  }
+}

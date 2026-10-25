@@ -7,7 +7,7 @@ import { WeekStrip } from './components/WeekStrip'
 import { fetchChildren, fetchWeek } from './data'
 import { isoWeekKey, localDateKey, parseDateKey, weekDateKeys } from './domain/dates'
 import { puzzlesFor, type Child, type Puzzle, type WeekFile } from './domain/puzzles'
-import { currentPuzzleIndex, NEW_RESULT, totalStars, type PuzzleResult } from './domain/scoring'
+import { currentPuzzleIndex, MAX_STARS, NEW_RESULT, totalStars, type PuzzleResult } from './domain/scoring'
 import { nb } from './i18n/nb'
 import { loadResults, saveResults, type ResultsStore } from './storage'
 
@@ -110,6 +110,7 @@ export default function App() {
               const dayResults = resultsFor(child.id, day)
               return dayResults.length ? totalStars(dayResults) : null
             }}
+            maxStarsOn={(day) => puzzlesFor(week, day, child.id).length * MAX_STARS}
             onResult={(index, result) => updateResult(child.id, index, result)}
             onDone={() => setChildId(null)}
           />
@@ -126,12 +127,13 @@ interface ChildDayProps {
   weekDays: readonly string[]
   today: string
   starsOn: (date: string) => number | null
+  maxStarsOn: (date: string) => number
   onResult: (index: number, result: PuzzleResult) => void
   onDone: () => void
 }
 
 /** Today's puzzles for one child, one at a time, then the summary. */
-function ChildDay({ child, puzzles, results, weekDays, today, starsOn, onResult, onDone }: ChildDayProps) {
+function ChildDay({ child, puzzles, results, weekDays, today, starsOn, maxStarsOn, onResult, onDone }: ChildDayProps) {
   // Stay on a finished puzzle until "next" is pressed, so its feedback can be read.
   const [viewIndex, setViewIndex] = useState(() => currentPuzzleIndex(results, puzzles.length))
   const dayResults = useMemo(() => puzzles.map((_, i) => results[i] ?? NEW_RESULT), [puzzles, results])
@@ -180,7 +182,7 @@ function ChildDay({ child, puzzles, results, weekDays, today, starsOn, onResult,
         />
       )}
 
-      <WeekStrip days={weekDays} today={today} starsOn={starsOn} />
+      <WeekStrip days={weekDays} today={today} starsOn={starsOn} maxStarsOn={maxStarsOn} />
     </div>
   )
 }

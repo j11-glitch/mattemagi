@@ -2,7 +2,7 @@
 
 export const nb = {
   appName: 'Mattemagi',
-  tagline: 'Tre magiske mattegåter hver dag',
+  tagline: 'Magiske mattegåter hver dag',
 
   loading: 'Tryller frem gåtene ...',
   loadError: 'Klarte ikke å hente gåtene. Sjekk nettet og prøv igjen.',

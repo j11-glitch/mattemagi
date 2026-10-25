@@ -1,10 +1,10 @@
 # Mattemagi
 
-*Tre magiske mattegåter hver dag* (three magic math puzzles a day).
+*Magiske mattegåter hver dag* (magic math puzzles every day).
 
-A small web app with daily math puzzles for children. Every day each child gets three
-puzzles in a row, types the answers, and earns stars. The app itself speaks Norwegian;
-code and documentation are in English.
+A small web app with daily math puzzles for children. Every day each child gets a set of
+puzzles in a row (3 a day up to week 44 of 2026, 6 a day from week 45), types the answers, and
+earns stars. The app itself speaks Norwegian; code and documentation are in English.
 
 ## Getting started
 
@@ -25,7 +25,7 @@ npm run dev
 
 1. The start page shows one card per child (from `public/children.json`) with today's
    status and stars.
-2. A child taps their card and gets today's three puzzles, one at a time.
+2. A child taps their card and gets today's puzzles, one at a time.
 3. Stars per puzzle:
 
    | Result                      | Stars                                                   |
@@ -38,7 +38,8 @@ npm run dev
 
    The limits are `MAX_ATTEMPTS` and `starsForAttempt` in `src/domain/scoring.ts`.
 
-4. After the third puzzle the child sees the day's stars (out of 9) and a week overview.
+4. After the last puzzle the child sees the day's stars (3 per puzzle, so out of 9 or 18) and a
+   week overview.
 
 Answers are forgiving: spaces and upper/lower case are ignored, `20,25` and `20.25` are the
 same, `17` and `17 kr` both match a puzzle with unit `kr`, and `07` equals `7`.
@@ -50,10 +51,12 @@ A child cannot replay a finished day for more stars.
 
 Puzzles live in `public/puzzles/`, one file per ISO week, named like `2026-W40.json`
 (weeks start on Monday). Add or edit the file directly on GitHub; the site redeploys by itself.
+`puzzlesPerDay` sets how many puzzles each child gets per day that week (3 when left out).
 
 ```json
 {
   "week": "2026-W40",
+  "puzzlesPerDay": 3,
   "days": {
     "2026-09-28": {
       "simo": [
@@ -84,7 +87,8 @@ Rules, checked by `npm test` (and therefore before every deploy):
 
 - the file name matches `"week"`, and every date belongs to that week;
 - each child id exists in `public/children.json`;
-- each child has exactly 3 puzzles per day, each with a question and an answer.
+- each child has exactly `puzzlesPerDay` puzzles per day (3 when the field is left out), each
+  with a question and an answer.
 
 If a day has no puzzles, the children see a friendly "no puzzles today" message.
 To preview a coming day, open the site with `?date=2026-09-28`.
